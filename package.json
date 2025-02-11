@@ -5,15 +5,16 @@
   "license": "MIT",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "npm run storybook:android",
+    "ios": "npm run storybook:ios",
     "web": "expo start --web",
     "storybook:web": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "storybook-generate": "sb-rn-get-stories --config-path .rnstorybook",
     "storybook": "cross-env EXPO_PUBLIC_STORYBOOK_ENABLED='true' expo start",
-    "storybook:ios": "cross-env EXPO_PUBLIC_STORYBOOK_ENABLED='true' expo start --ios",
-    "storybook:android": "cross-env EXPO_PUBLIC_STORYBOOK_ENABLED='true' expo start --android"
+    "storybook:ios": "cross-env EXPO_PUBLIC_STORYBOOK_ENABLED='true' expo run:ios",
+    "storybook:android": "cross-env EXPO_PUBLIC_STORYBOOK_ENABLED='true' expo run:android",
+    "clean": "expo prebuild --clean"
   },
   "dependencies": {
     "@gorhom/bottom-sheet": "^5.1.1",
@@ -44,7 +45,6 @@
     "@storybook/addon-ondevice-actions": "^8.5.4",
     "@storybook/addon-ondevice-backgrounds": "^8.5.4",
     "@storybook/addon-ondevice-controls": "^8.5.4",
-    "@storybook/addon-ondevice-notes": "^8.5.4",
     "@storybook/core": "^8.5.3",
     "@storybook/react": "^8.5.3",
     "@storybook/react-native": "^8.5.4",

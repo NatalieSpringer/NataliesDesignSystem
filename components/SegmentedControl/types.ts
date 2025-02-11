@@ -1,0 +1,5 @@
+interface SegmentedControlProps {
+
+}
+
+export { SegmentedControlProps };
