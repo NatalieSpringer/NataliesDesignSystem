@@ -14,7 +14,8 @@
     "storybook": "cross-env EXPO_PUBLIC_STORYBOOK_ENABLED='true' expo start",
     "storybook:ios": "cross-env EXPO_PUBLIC_STORYBOOK_ENABLED='true' expo run:ios",
     "storybook:android": "cross-env EXPO_PUBLIC_STORYBOOK_ENABLED='true' expo run:android",
-    "clean": "expo prebuild --clean"
+    "clean": "expo prebuild --clean",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@gorhom/bottom-sheet": "^5.1.1",
@@ -54,6 +55,11 @@
     "babel-plugin-react-docgen-typescript": "^1.5.1",
     "babel-plugin-react-native-web": "^0.19.10",
     "cross-env": "^7.0.3",
+    "eslint": "^8.57.0",
+    "eslint-config-expo": "~8.0.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "prettier": "^3.5.0",
     "storybook": "^8.5.3",
     "typescript": "~5.3.3",
     "vite": "^6.0.11"
