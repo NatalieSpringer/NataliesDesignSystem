@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View } from "react-native";
+require("./theme");
 
 function App() {
 	return (
