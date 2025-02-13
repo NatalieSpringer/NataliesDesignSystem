@@ -9,6 +9,7 @@ exports[`Text should render correctly small in dark 1`] = `
         "fontFamily": "SFProText-Regular",
         "fontSize": 16,
       },
+      false,
       {
         "lineHeight": 24,
       },
@@ -28,6 +29,7 @@ exports[`Text should render correctly small in light 1`] = `
         "fontFamily": "SFProText-Regular",
         "fontSize": 16,
       },
+      false,
       {
         "lineHeight": 24,
       },

@@ -5,7 +5,7 @@ import { mockAppTheme } from "../../../mocks";
 describe("Text", () => {
 	["light", "dark"].forEach((theme) => {
 		beforeEach(() => {
-			mockAppTheme("dark");
+			mockAppTheme(theme as "light" | "dark");
 		});
 
 		it(`should render correctly small in ${theme}`, () => {

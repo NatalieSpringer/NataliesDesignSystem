@@ -1,8 +1,8 @@
 import { mockAppTheme } from "./mocks";
 
-beforeEach(() => {
-	mockAppTheme("light");
-});
+// beforeEach(() => {
+// 	mockAppTheme("light");
+// });
 
 afterEach(() => {
 	jest.clearAllMocks();
