@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text should render correctly small in dark 1`] = `
+<Text
+  style={
+    [
+      {
+        "color": "white",
+        "fontFamily": "SFProText-Regular",
+        "fontSize": 16,
+      },
+      {
+        "lineHeight": 24,
+      },
+    ]
+  }
+>
+  Hello world
+</Text>
+`;
+
+exports[`Text should render correctly small in light 1`] = `
+<Text
+  style={
+    [
+      {
+        "color": "black",
+        "fontFamily": "SFProText-Regular",
+        "fontSize": 16,
+      },
+      {
+        "lineHeight": 24,
+      },
+    ]
+  }
+>
+  Hello world
+</Text>
+`;

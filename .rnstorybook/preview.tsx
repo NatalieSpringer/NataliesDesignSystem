@@ -1,8 +1,25 @@
-import { withBackgrounds } from "@storybook/addon-ondevice-backgrounds";
 import type { Preview } from "@storybook/react";
+import { View } from "react-native";
+import React from "react";
+import { createStyleSheet, useStyles } from 'react-native-unistyles'
+
+const stylesheet = createStyleSheet((theme) => ({
+    background: {
+      backgroundColor: theme.general.background,
+    }  
+}));
 
 const preview: Preview = {
-  decorators: [withBackgrounds],
+  decorators: [
+		(Story) => {
+      const { styles } = useStyles(stylesheet);
+      return (
+			<View style={styles.background}>
+				<Story />
+			</View>
+		)
+  }
+	],
 
   parameters: {
     backgrounds: {
