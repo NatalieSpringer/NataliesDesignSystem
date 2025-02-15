@@ -6,9 +6,8 @@ exports[`SegmentedControl should render correctly in dark 1`] = `
     [
       {
         "borderRadius": 100,
-        "flex": 1,
         "flexDirection": "row",
-        "minHeight": 44,
+        "height": 44,
       },
       {
         "backgroundColor": "#2F3036",
@@ -193,9 +192,8 @@ exports[`SegmentedControl should render correctly in light 1`] = `
     [
       {
         "borderRadius": 100,
-        "flex": 1,
         "flexDirection": "row",
-        "minHeight": 44,
+        "height": 44,
       },
       {
         "backgroundColor": "#2F3036",
