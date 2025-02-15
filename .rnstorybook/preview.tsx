@@ -1,12 +1,5 @@
 import type { Preview } from "@storybook/react";
 import React from "react";
-import { createStyleSheet } from 'react-native-unistyles'
-
-const stylesheet = createStyleSheet((theme) => ({
-    background: {
-      backgroundColor: theme.general.background,
-    }  
-}));
 
 const preview: Preview = {
   decorators: [
