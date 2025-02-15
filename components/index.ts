@@ -6,3 +6,4 @@ export * from "./Icon";
 export * from "./Image";
 export * from "./SegmentedControl";
 export * from "./Text";
+export * from "./Toggle";
