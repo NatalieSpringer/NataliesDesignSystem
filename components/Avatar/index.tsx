@@ -20,7 +20,7 @@ export const Avatar = ({ size = "m", source = "" }: AvatarProps) => {
 			<Image
 				contentFit="cover"
 				onLoad={() => setLoaded(true)}
-				style={[styles.container, { position: "absolute" }]}
+				style={[styles.container, styles.avatar]}
 				source={source}
 				testID="image"
 				transition={800}

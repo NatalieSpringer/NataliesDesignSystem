@@ -1,6 +1,9 @@
 import { createStyleSheet } from "react-native-unistyles";
 
 const stylesheet = createStyleSheet((theme) => ({
+	avatar: {
+		position: "absolute"
+	},
 	container: {
 		alignItems: "center",
 		aspectRatio: 1,
