@@ -20,7 +20,7 @@ describe("Avatar", () => {
 			});
 		});
 		it(`should render correctly with empty source`, () => {
-			const tree = render(<Avatar size={"s"} source="" />).toJSON();
+			const tree = render(<Avatar size="s" />).toJSON();
 
 			expect(tree).toMatchSnapshot();
 		});

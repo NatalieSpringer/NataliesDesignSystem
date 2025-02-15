@@ -6,7 +6,7 @@ import { useStyles } from "react-native-unistyles";
 import { Image } from "expo-image";
 import { Icon } from "../Icon";
 
-export const Avatar = ({ size = "m", source }: AvatarProps) => {
+export const Avatar = ({ size = "m", source = "" }: AvatarProps) => {
 	const { styles, theme } = useStyles(stylesheet, {
 		size
 	});

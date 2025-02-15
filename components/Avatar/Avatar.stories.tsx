@@ -39,3 +39,10 @@ export const Large: Story = {
 		source: "https://picsum.photos/seed/696/3000/2000"
 	}
 };
+
+export const NoImage: Story = {
+	args: {
+		size: "l",
+		source: ""
+	}
+};
