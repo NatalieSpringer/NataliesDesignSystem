@@ -7,4 +7,5 @@ export * from "./Image";
 export * from "./SegmentedControl";
 export * from "./Slider";
 export * from "./Text";
+export * from "./TextInput";
 export * from "./Toggle";
