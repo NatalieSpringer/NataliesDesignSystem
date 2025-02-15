@@ -13,6 +13,7 @@ export const androidMapping = {
 	chevronRight: "chevron-right",
 	chevronUp: "keyboard-arrow-up",
 	exclamationmark: "error",
+	image: "photo",
 	info: "info",
 	line: "filter-list",
 	person: "person",

@@ -9,6 +9,7 @@ const iOSMapping = {
 	chevronRight: "chevron.right",
 	chevronUp: "chevron.up",
 	exclamationmark: "exclamationmark.circle.fill",
+	image: "photo",
 	info: "info.circle.fill",
 	line: "line.3.horizontal.decrease",
 	person: "person.fill",

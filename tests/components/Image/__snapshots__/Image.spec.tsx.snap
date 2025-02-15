@@ -1,0 +1,971 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image should render correctly l in dark 1`] = `
+<View
+  accessibilityRole="image"
+  accessible={true}
+>
+  <ViewManagerAdapter_ExpoImage
+    alignItems="center"
+    aspectRatio={1.7777777777777777}
+    backgroundColor={4293587711}
+    borderRadius={10}
+    containerViewRef={"[React.ref]"}
+    contentFit="cover"
+    contentPosition={
+      {
+        "left": "50%",
+        "top": "50%",
+      }
+    }
+    justifyContent="center"
+    nativeViewRef={"[React.ref]"}
+    onError={[Function]}
+    onLoad={[Function]}
+    onLoadStart={[Function]}
+    onProgress={[Function]}
+    placeholder={[]}
+    position="absolute"
+    size={35}
+    source={
+      [
+        {
+          "uri": "https://picsum.photos/seed/696/3000/2000",
+        },
+      ]
+    }
+    style={
+      {
+        "alignItems": "center",
+        "aspectRatio": 1.7777777777777777,
+        "backgroundColor": "#EAF2FF",
+        "borderRadius": 10,
+        "justifyContent": "center",
+        "position": "absolute",
+        "size": 35,
+        "width": 190,
+      }
+    }
+    testID="image"
+    transition={
+      {
+        "duration": 800,
+      }
+    }
+    width={190}
+  />
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "aspectRatio": 1.7777777777777777,
+          "backgroundColor": "#EAF2FF",
+          "borderRadius": 10,
+          "justifyContent": "center",
+          "size": 35,
+          "width": 190,
+        },
+      ]
+    }
+  >
+    <ViewManagerAdapter_SymbolModule
+      animated={false}
+      colors={[]}
+      name="photo"
+      resizeMode="scaleAspectFit"
+      style={
+        [
+          {
+            "height": 24,
+            "width": 24,
+          },
+          [
+            {
+              "height": 35,
+              "width": 35,
+            },
+            undefined,
+          ],
+        ]
+      }
+      tintColor="#B3DAFF"
+      type="monochrome"
+      weight="regular"
+    />
+  </View>
+</View>
+`;
+
+exports[`Image should render correctly l in light 1`] = `
+<View
+  accessibilityRole="image"
+  accessible={true}
+>
+  <ViewManagerAdapter_ExpoImage
+    alignItems="center"
+    aspectRatio={1.7777777777777777}
+    backgroundColor={4293587711}
+    borderRadius={10}
+    containerViewRef={"[React.ref]"}
+    contentFit="cover"
+    contentPosition={
+      {
+        "left": "50%",
+        "top": "50%",
+      }
+    }
+    justifyContent="center"
+    nativeViewRef={"[React.ref]"}
+    onError={[Function]}
+    onLoad={[Function]}
+    onLoadStart={[Function]}
+    onProgress={[Function]}
+    placeholder={[]}
+    position="absolute"
+    size={35}
+    source={
+      [
+        {
+          "uri": "https://picsum.photos/seed/696/3000/2000",
+        },
+      ]
+    }
+    style={
+      {
+        "alignItems": "center",
+        "aspectRatio": 1.7777777777777777,
+        "backgroundColor": "#EAF2FF",
+        "borderRadius": 10,
+        "justifyContent": "center",
+        "position": "absolute",
+        "size": 35,
+        "width": 190,
+      }
+    }
+    testID="image"
+    transition={
+      {
+        "duration": 800,
+      }
+    }
+    width={190}
+  />
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "aspectRatio": 1.7777777777777777,
+          "backgroundColor": "#EAF2FF",
+          "borderRadius": 10,
+          "justifyContent": "center",
+          "size": 35,
+          "width": 190,
+        },
+      ]
+    }
+  >
+    <ViewManagerAdapter_SymbolModule
+      animated={false}
+      colors={[]}
+      name="photo"
+      resizeMode="scaleAspectFit"
+      style={
+        [
+          {
+            "height": 24,
+            "width": 24,
+          },
+          [
+            {
+              "height": 35,
+              "width": 35,
+            },
+            undefined,
+          ],
+        ]
+      }
+      tintColor="#B3DAFF"
+      type="monochrome"
+      weight="regular"
+    />
+  </View>
+</View>
+`;
+
+exports[`Image should render correctly m in dark 1`] = `
+<View
+  accessibilityRole="image"
+  accessible={true}
+>
+  <ViewManagerAdapter_ExpoImage
+    alignItems="center"
+    aspectRatio={1.7777777777777777}
+    backgroundColor={4293587711}
+    borderRadius={10}
+    containerViewRef={"[React.ref]"}
+    contentFit="cover"
+    contentPosition={
+      {
+        "left": "50%",
+        "top": "50%",
+      }
+    }
+    justifyContent="center"
+    nativeViewRef={"[React.ref]"}
+    onError={[Function]}
+    onLoad={[Function]}
+    onLoadStart={[Function]}
+    onProgress={[Function]}
+    placeholder={[]}
+    position="absolute"
+    size={30}
+    source={
+      [
+        {
+          "uri": "https://picsum.photos/seed/696/3000/2000",
+        },
+      ]
+    }
+    style={
+      {
+        "alignItems": "center",
+        "aspectRatio": 1.7777777777777777,
+        "backgroundColor": "#EAF2FF",
+        "borderRadius": 10,
+        "justifyContent": "center",
+        "position": "absolute",
+        "size": 30,
+        "width": 160,
+      }
+    }
+    testID="image"
+    transition={
+      {
+        "duration": 800,
+      }
+    }
+    width={160}
+  />
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "aspectRatio": 1.7777777777777777,
+          "backgroundColor": "#EAF2FF",
+          "borderRadius": 10,
+          "justifyContent": "center",
+          "size": 30,
+          "width": 160,
+        },
+      ]
+    }
+  >
+    <ViewManagerAdapter_SymbolModule
+      animated={false}
+      colors={[]}
+      name="photo"
+      resizeMode="scaleAspectFit"
+      style={
+        [
+          {
+            "height": 24,
+            "width": 24,
+          },
+          [
+            {
+              "height": 30,
+              "width": 30,
+            },
+            undefined,
+          ],
+        ]
+      }
+      tintColor="#B3DAFF"
+      type="monochrome"
+      weight="regular"
+    />
+  </View>
+</View>
+`;
+
+exports[`Image should render correctly m in light 1`] = `
+<View
+  accessibilityRole="image"
+  accessible={true}
+>
+  <ViewManagerAdapter_ExpoImage
+    alignItems="center"
+    aspectRatio={1.7777777777777777}
+    backgroundColor={4293587711}
+    borderRadius={10}
+    containerViewRef={"[React.ref]"}
+    contentFit="cover"
+    contentPosition={
+      {
+        "left": "50%",
+        "top": "50%",
+      }
+    }
+    justifyContent="center"
+    nativeViewRef={"[React.ref]"}
+    onError={[Function]}
+    onLoad={[Function]}
+    onLoadStart={[Function]}
+    onProgress={[Function]}
+    placeholder={[]}
+    position="absolute"
+    size={30}
+    source={
+      [
+        {
+          "uri": "https://picsum.photos/seed/696/3000/2000",
+        },
+      ]
+    }
+    style={
+      {
+        "alignItems": "center",
+        "aspectRatio": 1.7777777777777777,
+        "backgroundColor": "#EAF2FF",
+        "borderRadius": 10,
+        "justifyContent": "center",
+        "position": "absolute",
+        "size": 30,
+        "width": 160,
+      }
+    }
+    testID="image"
+    transition={
+      {
+        "duration": 800,
+      }
+    }
+    width={160}
+  />
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "aspectRatio": 1.7777777777777777,
+          "backgroundColor": "#EAF2FF",
+          "borderRadius": 10,
+          "justifyContent": "center",
+          "size": 30,
+          "width": 160,
+        },
+      ]
+    }
+  >
+    <ViewManagerAdapter_SymbolModule
+      animated={false}
+      colors={[]}
+      name="photo"
+      resizeMode="scaleAspectFit"
+      style={
+        [
+          {
+            "height": 24,
+            "width": 24,
+          },
+          [
+            {
+              "height": 30,
+              "width": 30,
+            },
+            undefined,
+          ],
+        ]
+      }
+      tintColor="#B3DAFF"
+      type="monochrome"
+      weight="regular"
+    />
+  </View>
+</View>
+`;
+
+exports[`Image should render correctly s in dark 1`] = `
+<View
+  accessibilityRole="image"
+  accessible={true}
+>
+  <ViewManagerAdapter_ExpoImage
+    alignItems="center"
+    aspectRatio={1.7777777777777777}
+    backgroundColor={4293587711}
+    borderRadius={10}
+    containerViewRef={"[React.ref]"}
+    contentFit="cover"
+    contentPosition={
+      {
+        "left": "50%",
+        "top": "50%",
+      }
+    }
+    justifyContent="center"
+    nativeViewRef={"[React.ref]"}
+    onError={[Function]}
+    onLoad={[Function]}
+    onLoadStart={[Function]}
+    onProgress={[Function]}
+    placeholder={[]}
+    position="absolute"
+    size={25}
+    source={
+      [
+        {
+          "uri": "https://picsum.photos/seed/696/3000/2000",
+        },
+      ]
+    }
+    style={
+      {
+        "alignItems": "center",
+        "aspectRatio": 1.7777777777777777,
+        "backgroundColor": "#EAF2FF",
+        "borderRadius": 10,
+        "justifyContent": "center",
+        "position": "absolute",
+        "size": 25,
+        "width": 130,
+      }
+    }
+    testID="image"
+    transition={
+      {
+        "duration": 800,
+      }
+    }
+    width={130}
+  />
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "aspectRatio": 1.7777777777777777,
+          "backgroundColor": "#EAF2FF",
+          "borderRadius": 10,
+          "justifyContent": "center",
+          "size": 25,
+          "width": 130,
+        },
+      ]
+    }
+  >
+    <ViewManagerAdapter_SymbolModule
+      animated={false}
+      colors={[]}
+      name="photo"
+      resizeMode="scaleAspectFit"
+      style={
+        [
+          {
+            "height": 24,
+            "width": 24,
+          },
+          [
+            {
+              "height": 25,
+              "width": 25,
+            },
+            undefined,
+          ],
+        ]
+      }
+      tintColor="#B3DAFF"
+      type="monochrome"
+      weight="regular"
+    />
+  </View>
+</View>
+`;
+
+exports[`Image should render correctly s in light 1`] = `
+<View
+  accessibilityRole="image"
+  accessible={true}
+>
+  <ViewManagerAdapter_ExpoImage
+    alignItems="center"
+    aspectRatio={1.7777777777777777}
+    backgroundColor={4293587711}
+    borderRadius={10}
+    containerViewRef={"[React.ref]"}
+    contentFit="cover"
+    contentPosition={
+      {
+        "left": "50%",
+        "top": "50%",
+      }
+    }
+    justifyContent="center"
+    nativeViewRef={"[React.ref]"}
+    onError={[Function]}
+    onLoad={[Function]}
+    onLoadStart={[Function]}
+    onProgress={[Function]}
+    placeholder={[]}
+    position="absolute"
+    size={25}
+    source={
+      [
+        {
+          "uri": "https://picsum.photos/seed/696/3000/2000",
+        },
+      ]
+    }
+    style={
+      {
+        "alignItems": "center",
+        "aspectRatio": 1.7777777777777777,
+        "backgroundColor": "#EAF2FF",
+        "borderRadius": 10,
+        "justifyContent": "center",
+        "position": "absolute",
+        "size": 25,
+        "width": 130,
+      }
+    }
+    testID="image"
+    transition={
+      {
+        "duration": 800,
+      }
+    }
+    width={130}
+  />
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "aspectRatio": 1.7777777777777777,
+          "backgroundColor": "#EAF2FF",
+          "borderRadius": 10,
+          "justifyContent": "center",
+          "size": 25,
+          "width": 130,
+        },
+      ]
+    }
+  >
+    <ViewManagerAdapter_SymbolModule
+      animated={false}
+      colors={[]}
+      name="photo"
+      resizeMode="scaleAspectFit"
+      style={
+        [
+          {
+            "height": 24,
+            "width": 24,
+          },
+          [
+            {
+              "height": 25,
+              "width": 25,
+            },
+            undefined,
+          ],
+        ]
+      }
+      tintColor="#B3DAFF"
+      type="monochrome"
+      weight="regular"
+    />
+  </View>
+</View>
+`;
+
+exports[`Image should render correctly undefined in dark 1`] = `
+<View
+  accessibilityRole="image"
+  accessible={true}
+>
+  <ViewManagerAdapter_ExpoImage
+    alignItems="center"
+    aspectRatio={1.7777777777777777}
+    backgroundColor={4293587711}
+    borderRadius={10}
+    containerViewRef={"[React.ref]"}
+    contentFit="cover"
+    contentPosition={
+      {
+        "left": "50%",
+        "top": "50%",
+      }
+    }
+    justifyContent="center"
+    nativeViewRef={"[React.ref]"}
+    onError={[Function]}
+    onLoad={[Function]}
+    onLoadStart={[Function]}
+    onProgress={[Function]}
+    placeholder={[]}
+    position="absolute"
+    size={30}
+    source={
+      [
+        {
+          "uri": "https://picsum.photos/seed/696/3000/2000",
+        },
+      ]
+    }
+    style={
+      {
+        "alignItems": "center",
+        "aspectRatio": 1.7777777777777777,
+        "backgroundColor": "#EAF2FF",
+        "borderRadius": 10,
+        "justifyContent": "center",
+        "position": "absolute",
+        "size": 30,
+        "width": 160,
+      }
+    }
+    testID="image"
+    transition={
+      {
+        "duration": 800,
+      }
+    }
+    width={160}
+  />
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "aspectRatio": 1.7777777777777777,
+          "backgroundColor": "#EAF2FF",
+          "borderRadius": 10,
+          "justifyContent": "center",
+          "size": 30,
+          "width": 160,
+        },
+      ]
+    }
+  >
+    <ViewManagerAdapter_SymbolModule
+      animated={false}
+      colors={[]}
+      name="photo"
+      resizeMode="scaleAspectFit"
+      style={
+        [
+          {
+            "height": 24,
+            "width": 24,
+          },
+          [
+            {
+              "height": 30,
+              "width": 30,
+            },
+            undefined,
+          ],
+        ]
+      }
+      tintColor="#B3DAFF"
+      type="monochrome"
+      weight="regular"
+    />
+  </View>
+</View>
+`;
+
+exports[`Image should render correctly undefined in light 1`] = `
+<View
+  accessibilityRole="image"
+  accessible={true}
+>
+  <ViewManagerAdapter_ExpoImage
+    alignItems="center"
+    aspectRatio={1.7777777777777777}
+    backgroundColor={4293587711}
+    borderRadius={10}
+    containerViewRef={"[React.ref]"}
+    contentFit="cover"
+    contentPosition={
+      {
+        "left": "50%",
+        "top": "50%",
+      }
+    }
+    justifyContent="center"
+    nativeViewRef={"[React.ref]"}
+    onError={[Function]}
+    onLoad={[Function]}
+    onLoadStart={[Function]}
+    onProgress={[Function]}
+    placeholder={[]}
+    position="absolute"
+    size={30}
+    source={
+      [
+        {
+          "uri": "https://picsum.photos/seed/696/3000/2000",
+        },
+      ]
+    }
+    style={
+      {
+        "alignItems": "center",
+        "aspectRatio": 1.7777777777777777,
+        "backgroundColor": "#EAF2FF",
+        "borderRadius": 10,
+        "justifyContent": "center",
+        "position": "absolute",
+        "size": 30,
+        "width": 160,
+      }
+    }
+    testID="image"
+    transition={
+      {
+        "duration": 800,
+      }
+    }
+    width={160}
+  />
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "aspectRatio": 1.7777777777777777,
+          "backgroundColor": "#EAF2FF",
+          "borderRadius": 10,
+          "justifyContent": "center",
+          "size": 30,
+          "width": 160,
+        },
+      ]
+    }
+  >
+    <ViewManagerAdapter_SymbolModule
+      animated={false}
+      colors={[]}
+      name="photo"
+      resizeMode="scaleAspectFit"
+      style={
+        [
+          {
+            "height": 24,
+            "width": 24,
+          },
+          [
+            {
+              "height": 30,
+              "width": 30,
+            },
+            undefined,
+          ],
+        ]
+      }
+      tintColor="#B3DAFF"
+      type="monochrome"
+      weight="regular"
+    />
+  </View>
+</View>
+`;
+
+exports[`Image should render correctly with empty source 1`] = `
+<View
+  accessibilityRole="image"
+  accessible={true}
+>
+  <ViewManagerAdapter_ExpoImage
+    alignItems="center"
+    aspectRatio={1.7777777777777777}
+    backgroundColor={4293587711}
+    borderRadius={10}
+    containerViewRef={"[React.ref]"}
+    contentFit="cover"
+    contentPosition={
+      {
+        "left": "50%",
+        "top": "50%",
+      }
+    }
+    justifyContent="center"
+    nativeViewRef={"[React.ref]"}
+    onError={[Function]}
+    onLoad={[Function]}
+    onLoadStart={[Function]}
+    onProgress={[Function]}
+    placeholder={[]}
+    position="absolute"
+    size={25}
+    source={
+      [
+        {
+          "uri": "",
+        },
+      ]
+    }
+    style={
+      {
+        "alignItems": "center",
+        "aspectRatio": 1.7777777777777777,
+        "backgroundColor": "#EAF2FF",
+        "borderRadius": 10,
+        "justifyContent": "center",
+        "position": "absolute",
+        "size": 25,
+        "width": 130,
+      }
+    }
+    testID="image"
+    transition={
+      {
+        "duration": 800,
+      }
+    }
+    width={130}
+  />
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "aspectRatio": 1.7777777777777777,
+          "backgroundColor": "#EAF2FF",
+          "borderRadius": 10,
+          "justifyContent": "center",
+          "size": 25,
+          "width": 130,
+        },
+      ]
+    }
+  >
+    <ViewManagerAdapter_SymbolModule
+      animated={false}
+      colors={[]}
+      name="photo"
+      resizeMode="scaleAspectFit"
+      style={
+        [
+          {
+            "height": 24,
+            "width": 24,
+          },
+          [
+            {
+              "height": 25,
+              "width": 25,
+            },
+            undefined,
+          ],
+        ]
+      }
+      tintColor="#B3DAFF"
+      type="monochrome"
+      weight="regular"
+    />
+  </View>
+</View>
+`;
+
+exports[`Image should render correctly with empty source 2`] = `
+<View
+  accessibilityRole="image"
+  accessible={true}
+>
+  <ViewManagerAdapter_ExpoImage
+    alignItems="center"
+    aspectRatio={1.7777777777777777}
+    backgroundColor={4293587711}
+    borderRadius={10}
+    containerViewRef={"[React.ref]"}
+    contentFit="cover"
+    contentPosition={
+      {
+        "left": "50%",
+        "top": "50%",
+      }
+    }
+    justifyContent="center"
+    nativeViewRef={"[React.ref]"}
+    onError={[Function]}
+    onLoad={[Function]}
+    onLoadStart={[Function]}
+    onProgress={[Function]}
+    placeholder={[]}
+    position="absolute"
+    size={25}
+    source={
+      [
+        {
+          "uri": "",
+        },
+      ]
+    }
+    style={
+      {
+        "alignItems": "center",
+        "aspectRatio": 1.7777777777777777,
+        "backgroundColor": "#EAF2FF",
+        "borderRadius": 10,
+        "justifyContent": "center",
+        "position": "absolute",
+        "size": 25,
+        "width": 130,
+      }
+    }
+    testID="image"
+    transition={
+      {
+        "duration": 800,
+      }
+    }
+    width={130}
+  />
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "aspectRatio": 1.7777777777777777,
+          "backgroundColor": "#EAF2FF",
+          "borderRadius": 10,
+          "justifyContent": "center",
+          "size": 25,
+          "width": 130,
+        },
+      ]
+    }
+  >
+    <ViewManagerAdapter_SymbolModule
+      animated={false}
+      colors={[]}
+      name="photo"
+      resizeMode="scaleAspectFit"
+      style={
+        [
+          {
+            "height": 24,
+            "width": 24,
+          },
+          [
+            {
+              "height": 25,
+              "width": 25,
+            },
+            undefined,
+          ],
+        ]
+      }
+      tintColor="#B3DAFF"
+      type="monochrome"
+      weight="regular"
+    />
+  </View>
+</View>
+`;

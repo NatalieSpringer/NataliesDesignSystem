@@ -5,6 +5,7 @@ export type IconType =
 	| "chevronRight"
 	| "chevronUp"
 	| "exclamationmark"
+	| "image"
 	| "info"
 	| "line"
 	| "person"
