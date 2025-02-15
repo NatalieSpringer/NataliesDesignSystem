@@ -11,6 +11,7 @@ const iOSMapping = {
 	exclamationmark: "exclamationmark.circle.fill",
 	info: "info.circle.fill",
 	line: "line.3.horizontal.decrease",
+	person: "person.fill",
 	search: "magnifyingglass",
 	minus: "minus",
 	plus: "plus",
