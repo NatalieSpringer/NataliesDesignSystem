@@ -11,9 +11,8 @@ const stylesheet = createStyleSheet((theme) => ({
 	}),
 	container: {
 		borderRadius: 100,
-		flex: 1,
 		flexDirection: "row",
-		minHeight: 44
+		height: 44
 	},
 	controlContainer: {
 		justifyContent: "center"

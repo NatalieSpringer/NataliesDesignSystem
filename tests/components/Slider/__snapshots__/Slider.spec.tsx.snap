@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider should render correctly in dark 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    [
+      [
+        {
+          "width": "100%",
+        },
+        {
+          "height": 40,
+        },
+      ],
+      {
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <RNCSlider
+    accessibilityRole="adjustable"
+    accessibilityValue={
+      {
+        "max": 1,
+        "min": 0,
+        "now": 0,
+      }
+    }
+    accessible={true}
+    disabled={false}
+    inverted={false}
+    lowerLimit={-9007199254740991}
+    maximumTrackTintColor="#E8E9F1"
+    maximumValue={1}
+    minimumTrackTintColor="rgba(10, 132, 255, 1)"
+    minimumValue={0}
+    onChange={[Function]}
+    onRNCSliderAccessibilityAction={[Function]}
+    onRNCSliderSlidingComplete={[Function]}
+    onRNCSliderSlidingStart={null}
+    onRNCSliderValueChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    step={0.1}
+    style={
+      [
+        {
+          "width": 0,
+          "zIndex": 1,
+        },
+        {
+          "height": 40,
+        },
+        {
+          "alignContent": "center",
+          "alignItems": "center",
+        },
+      ]
+    }
+    tapToSeek={false}
+    upperLimit={9007199254740991}
+  />
+</View>
+`;
+
+exports[`Slider should render correctly in light 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    [
+      [
+        {
+          "width": "100%",
+        },
+        {
+          "height": 40,
+        },
+      ],
+      {
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <RNCSlider
+    accessibilityRole="adjustable"
+    accessibilityValue={
+      {
+        "max": 1,
+        "min": 0,
+        "now": 0,
+      }
+    }
+    accessible={true}
+    disabled={false}
+    inverted={false}
+    lowerLimit={-9007199254740991}
+    maximumTrackTintColor="#E8E9F1"
+    maximumValue={1}
+    minimumTrackTintColor="rgba(0, 122, 255, 1)"
+    minimumValue={0}
+    onChange={[Function]}
+    onRNCSliderAccessibilityAction={[Function]}
+    onRNCSliderSlidingComplete={[Function]}
+    onRNCSliderSlidingStart={null}
+    onRNCSliderValueChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    step={0.1}
+    style={
+      [
+        {
+          "width": 0,
+          "zIndex": 1,
+        },
+        {
+          "height": 40,
+        },
+        {
+          "alignContent": "center",
+          "alignItems": "center",
+        },
+      ]
+    }
+    tapToSeek={false}
+    upperLimit={9007199254740991}
+  />
+</View>
+`;

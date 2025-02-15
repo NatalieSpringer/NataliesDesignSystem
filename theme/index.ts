@@ -19,6 +19,9 @@ const darkTheme = {
 		background: "#2F3036",
 		textNotSelected: "#8F9098"
 	},
+	slider: {
+		background: "#E8E9F1"
+	},
 	system: {
 		red: "rgba(255, 69, 58, 1)",
 		orange: "rgba(255, 159, 10, 1)",
@@ -56,6 +59,9 @@ const lightTheme = {
 	segmentedControl: {
 		background: "#F8F9FE",
 		textNotSelected: "#71727A"
+	},
+	slider: {
+		background: "#E8E9F1"
 	},
 	system: {
 		red: "rgba(255, 59, 48, 1)",

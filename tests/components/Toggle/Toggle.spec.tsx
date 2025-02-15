@@ -10,12 +10,9 @@ describe("Toggle", () => {
 		[true, false].forEach((value) => {
 			it(`should render correctly when toggle value is ${value}`, () => {
 				const tree = render(
-					<Toggle
-						onValueChange={jest.fn()}
-						value={value}
-					/>
+					<Toggle onValueChange={jest.fn()} value={value} />
 				).toJSON();
-				
+
 				expect(tree).toMatchSnapshot();
 			});
 		});
