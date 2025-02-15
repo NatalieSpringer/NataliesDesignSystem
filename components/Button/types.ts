@@ -1,8 +1,8 @@
 interface ButtonProps {
-    disabled?: boolean;
+	disabled?: boolean;
 	onPress: () => void;
 	text: string;
-    variant: "primary" | "secondary" | "tertiary"
+	variant: "primary" | "secondary" | "tertiary";
 }
 
 export { ButtonProps };

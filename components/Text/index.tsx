@@ -12,5 +12,9 @@ export const Text = ({ children, color, size, weight }: TextProps) => {
 
 	const lineHeight = styles.text.fontSize * 1.5;
 
-	return <TextRN style={[styles.text, !!color && { color }, { lineHeight }]}>{children}</TextRN>;
+	return (
+		<TextRN style={[styles.text, !!color && { color }, { lineHeight }]}>
+			{children}
+		</TextRN>
+	);
 };

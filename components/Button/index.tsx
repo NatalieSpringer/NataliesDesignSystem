@@ -5,7 +5,12 @@ import { stylesheet } from "./style";
 import { useStyles } from "react-native-unistyles";
 import { Text } from "../Text";
 
-export const Button = ({ disabled = false, onPress, text, variant }: ButtonProps) => {
+export const Button = ({
+	disabled = false,
+	onPress,
+	text,
+	variant
+}: ButtonProps) => {
 	const { styles } = useStyles(stylesheet, {
 		variant
 	});
@@ -22,7 +27,9 @@ export const Button = ({ disabled = false, onPress, text, variant }: ButtonProps
 			onPress={onPress}
 			style={containerStyle}
 		>
-			<Text color={textColor} size="s" weight="bold">{text}</Text>
+			<Text color={textColor} size="s" weight="bold">
+				{text}
+			</Text>
 		</TouchableOpacity>
 	);
 };

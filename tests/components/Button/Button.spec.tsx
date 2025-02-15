@@ -11,8 +11,17 @@ describe("Button", () => {
 				});
 				it(`should render correctly ${variant} in ${theme} when disabled is ${disabled}`, () => {
 					const onPress = jest.fn();
-					const tree = render(<Button disabled={disabled} onPress={onPress} text="Hello World" variant={variant as "primary" | "secondary" | "tertiary"} />).toJSON();
-		
+					const tree = render(
+						<Button
+							disabled={disabled}
+							onPress={onPress}
+							text="Hello World"
+							variant={
+								variant as "primary" | "secondary" | "tertiary"
+							}
+						/>
+					).toJSON();
+
 					expect(tree).toMatchSnapshot();
 				});
 			});
