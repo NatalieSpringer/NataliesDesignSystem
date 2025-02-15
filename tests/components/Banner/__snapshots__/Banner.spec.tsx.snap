@@ -4,7 +4,7 @@ exports[`Banner should render correctly in dark 1`] = `
 <View
   style={
     {
-      "backgroundColor": "#EAF2FF",
+      "backgroundColor": "#2F3036",
       "borderRadius": 16,
       "padding": 20,
     }
@@ -19,9 +19,7 @@ exports[`Banner should render correctly in dark 1`] = `
           "fontSize": 16,
           "fontWeight": "bold",
         },
-        {
-          "color": "black",
-        },
+        false,
         {
           "lineHeight": 24,
         },
@@ -38,9 +36,7 @@ exports[`Banner should render correctly in dark 1`] = `
           "fontFamily": "SFProText-Regular",
           "fontSize": 14,
         },
-        {
-          "color": "black",
-        },
+        false,
         {
           "lineHeight": 21,
         },
@@ -128,7 +124,7 @@ exports[`Banner should render correctly in light 1`] = `
 <View
   style={
     {
-      "backgroundColor": "#EAF2FF",
+      "backgroundColor": "#2F3036",
       "borderRadius": 16,
       "padding": 20,
     }
@@ -143,9 +139,7 @@ exports[`Banner should render correctly in light 1`] = `
           "fontSize": 16,
           "fontWeight": "bold",
         },
-        {
-          "color": "black",
-        },
+        false,
         {
           "lineHeight": 24,
         },
@@ -162,9 +156,7 @@ exports[`Banner should render correctly in light 1`] = `
           "fontFamily": "SFProText-Regular",
           "fontSize": 14,
         },
-        {
-          "color": "black",
-        },
+        false,
         {
           "lineHeight": 21,
         },

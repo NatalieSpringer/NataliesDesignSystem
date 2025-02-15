@@ -6,7 +6,7 @@ const stylesheet = createStyleSheet((theme) => ({
 		width: "50%"
 	},
 	container: {
-		backgroundColor: "#EAF2FF",
+		backgroundColor: theme.banner.background,
 		borderRadius: 16,
 		padding: 20
 	}

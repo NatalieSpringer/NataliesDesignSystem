@@ -14,7 +14,7 @@ const preview: Preview = {
 		(Story) => {
       const { styles } = useStyles(stylesheet);
       return (
-			<View style={styles.background}>
+			<View >
 				<Story />
 			</View>
 		)

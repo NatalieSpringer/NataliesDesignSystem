@@ -2,15 +2,22 @@ import { UnistylesRegistry } from "react-native-unistyles";
 
 const darkTheme = {
 	general: {
-		background: "111111"
+		background: "#111111"
 	},
 	avatar: {
-		background: "#EAF2FF",
+		background: "#2F3036",
 		icon: "#B3DAFF"
+	},
+	banner: {
+		background: "#2F3036"
 	},
 	image: {
 		background: "#EAF2FF",
 		icon: "#B3DAFF"
+	},
+	segmentedControl: {
+		background: "#2F3036",
+		textNotSelected: "#8F9098"
 	},
 	system: {
 		red: "rgba(255, 69, 58, 1)",
@@ -39,10 +46,16 @@ const lightTheme = {
 		background: "#EAF2FF",
 		icon: "#B3DAFF"
 	},
-	banner: {},
+	banner: {
+		background: "#EAF2FF"
+	},
 	image: {
 		background: "#EAF2FF",
 		icon: "#B3DAFF"
+	},
+	segmentedControl: {
+		background: "#F8F9FE",
+		textNotSelected: "#71727A"
 	},
 	system: {
 		red: "rgba(255, 59, 48, 1)",
