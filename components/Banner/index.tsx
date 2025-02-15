@@ -11,12 +11,10 @@ export const Banner = ({ description, onPress, title }: BannerProps) => {
 
 	return (
 		<View style={styles.container}>
-			<Text color="black" size="s" weight="bold">
+			<Text size="s" weight="bold">
 				{title}
 			</Text>
-			<Text color="black" size="xs">
-				{description}
-			</Text>
+			<Text size="xs">{description}</Text>
 			<View style={styles.button}>
 				<Button onPress={onPress} text="Button" variant="primary" />
 			</View>

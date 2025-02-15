@@ -1,7 +1,6 @@
 import type { Preview } from "@storybook/react";
-import { View } from "react-native";
 import React from "react";
-import { createStyleSheet, useStyles } from 'react-native-unistyles'
+import { createStyleSheet } from 'react-native-unistyles'
 
 const stylesheet = createStyleSheet((theme) => ({
     background: {
@@ -12,12 +11,7 @@ const stylesheet = createStyleSheet((theme) => ({
 const preview: Preview = {
   decorators: [
 		(Story) => {
-      const { styles } = useStyles(stylesheet);
-      return (
-			<View style={styles.background}>
-				<Story />
-			</View>
-		)
+      return <Story />
   }
 	],
 

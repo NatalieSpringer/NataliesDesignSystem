@@ -1,0 +1,15 @@
+diff --git a/node_modules/react-native-reanimated/lib/module/createAnimatedComponent/createAnimatedComponent.js b/node_modules/react-native-reanimated/lib/module/createAnimatedComponent/createAnimatedComponent.js
+index 69682cb..fb52222 100644
+--- a/node_modules/react-native-reanimated/lib/module/createAnimatedComponent/createAnimatedComponent.js
++++ b/node_modules/react-native-reanimated/lib/module/createAnimatedComponent/createAnimatedComponent.js
+@@ -392,8 +392,8 @@ export function createAnimatedComponent(Component, options) {
+       const skipEntering = this.context?.current;
+       const nativeID = skipEntering || !isFabric() ? undefined : `${this.reanimatedID}`;
+       const jestProps = IS_JEST ? {
+-        jestInlineStyle: this.props.style,
+-        jestAnimatedStyle: this.jestAnimatedStyle
++        // jestInlineStyle: this.props.style,
++        // jestAnimatedStyle: this.jestAnimatedStyle
+       } : {};
+       return /*#__PURE__*/React.createElement(Component, _extends({
+         nativeID: nativeID
