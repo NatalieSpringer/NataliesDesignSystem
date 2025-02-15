@@ -21,8 +21,8 @@ type Story = StoryObj<typeof meta>;
 
 export const InfoIcon: Story = {
 	args: {
-		name: "checkmark",
+		name: "info",
 		size: 24,
-		color: "green",
+		color: "green"
 	}
 };

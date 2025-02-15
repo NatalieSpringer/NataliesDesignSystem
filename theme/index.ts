@@ -16,7 +16,7 @@ const darkTheme = {
 		indigo: "rgba(94, 92, 230, 1)",
 		purple: "rgba(191, 90, 242, 1)",
 		pink: "rgba(255, 55, 95, 1)",
-		gray: "rgba(152, 152, 157, 1)",
+		gray: "rgba(152, 152, 157, 1)"
 	},
 	typography: {
 		text: "white"
@@ -39,7 +39,7 @@ const lightTheme = {
 		indigo: "rgba(88, 86, 214, 1)",
 		purple: "rgba(175, 82, 222, 1)",
 		pink: "rgba(255, 45, 85, 1)",
-		gray: "rgba(142, 142, 147, 1)",
+		gray: "rgba(142, 142, 147, 1)"
 	},
 	typography: {
 		text: "black"
