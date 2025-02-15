@@ -15,6 +15,7 @@ export const androidMapping = {
 	exclamationmark: "error",
 	info: "info",
 	line: "filter-list",
+	person: "person",
 	search: "search",
 	minus: "remove",
 	plus: "add",

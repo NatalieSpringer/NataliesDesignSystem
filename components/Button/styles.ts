@@ -1,4 +1,3 @@
-import { Platform } from "react-native";
 import { createStyleSheet } from "react-native-unistyles";
 
 const stylesheet = createStyleSheet((theme) => ({

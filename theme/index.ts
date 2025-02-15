@@ -4,6 +4,10 @@ const darkTheme = {
 	general: {
 		background: "111111"
 	},
+	avatar: {
+		background: "#EAF2FF",
+		icon: "#B3DAFF"
+	},
 	system: {
 		red: "rgba(255, 69, 58, 1)",
 		orange: "rgba(255, 159, 10, 1)",
@@ -26,6 +30,10 @@ const darkTheme = {
 const lightTheme = {
 	general: {
 		background: "white"
+	},
+	avatar: {
+		background: "#EAF2FF",
+		icon: "#B3DAFF"
 	},
 	system: {
 		red: "rgba(255, 59, 48, 1)",

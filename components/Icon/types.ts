@@ -7,6 +7,7 @@ export type IconType =
 	| "exclamationmark"
 	| "info"
 	| "line"
+	| "person"
 	| "search"
 	| "minus"
 	| "plus"
