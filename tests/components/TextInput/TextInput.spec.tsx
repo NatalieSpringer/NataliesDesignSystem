@@ -15,6 +15,20 @@ describe("TextInput", () => {
 
 			expect(tree).toMatchSnapshot();
 		});
+
+		it(`should render correctly in ${theme} with multiline`, () => {
+			const onChangeText = jest.fn();
+			const tree = render(
+				<TextInput
+					numberOfLines={4}
+					multiline
+					onChangeText={onChangeText}
+					value="Text"
+				/>
+			).toJSON();
+
+			expect(tree).toMatchSnapshot();
+		});
 	});
 
 	describe("interaction", () => {

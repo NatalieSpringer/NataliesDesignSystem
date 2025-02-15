@@ -6,16 +6,26 @@ import { useStyles } from "react-native-unistyles";
 
 export const TextInput = ({
 	keyboardType,
+	numberOfLines,
+	maxLength,
+	multiline = false,
 	onChangeText,
+	placeholder,
 	value
 }: TextInputProps) => {
-	const { styles } = useStyles(stylesheet);
+	const { styles } = useStyles(stylesheet, {
+		multiline
+	});
 
 	return (
 		<TextInputRN
 			accessible
 			keyboardType={keyboardType}
+			numberOfLines={numberOfLines}
+			maxLength={maxLength}
+			multiline={multiline}
 			onChangeText={onChangeText}
+			placeholder={placeholder}
 			style={styles.container}
 			testID="TextInput"
 			value={value}
