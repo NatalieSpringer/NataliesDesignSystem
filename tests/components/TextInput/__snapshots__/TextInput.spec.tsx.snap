@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput should render correctly in dark 1`] = `
+<TextInput
+  accessible={true}
+  onChangeText={[MockFunction]}
+  style={
+    {
+      "borderColor": "white",
+      "borderRadius": 10,
+      "borderWidth": 1,
+      "color": "white",
+      "fontFamily": "SFProText-Regular",
+      "height": 48,
+      "padding": 10,
+      "width": "100%",
+    }
+  }
+  testID="TextInput"
+  value="Text"
+/>
+`;
+
+exports[`TextInput should render correctly in light 1`] = `
+<TextInput
+  accessible={true}
+  onChangeText={[MockFunction]}
+  style={
+    {
+      "borderColor": "black",
+      "borderRadius": 10,
+      "borderWidth": 1,
+      "color": "black",
+      "fontFamily": "SFProText-Regular",
+      "height": 48,
+      "padding": 10,
+      "width": "100%",
+    }
+  }
+  testID="TextInput"
+  value="Text"
+/>
+`;
