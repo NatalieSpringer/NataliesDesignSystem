@@ -36,6 +36,9 @@ const darkTheme = {
 		pink: "rgba(255, 55, 95, 1)",
 		gray: "rgba(152, 152, 157, 1)"
 	},
+	textInput: {
+		placeholder: "#8F9098"
+	},
 	typography: {
 		text: "white"
 	}
@@ -76,6 +79,9 @@ const lightTheme = {
 		purple: "rgba(175, 82, 222, 1)",
 		pink: "rgba(255, 45, 85, 1)",
 		gray: "rgba(142, 142, 147, 1)"
+	},
+	textInput: {
+		placeholder: "#8F9098"
 	},
 	typography: {
 		text: "black"

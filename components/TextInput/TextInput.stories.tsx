@@ -18,3 +18,10 @@ const Template: StoryFn<TextInputProps> = (args) => {
 
 export const TextInputBasic = Template.bind({});
 TextInputBasic.args = {};
+
+export const TextInputMultiline = Template.bind({});
+TextInputMultiline.args = {
+	numberOfLines: 4,
+	multiline: true,
+	placeholder: "Enter text"
+};
