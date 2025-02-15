@@ -39,6 +39,7 @@ const lightTheme = {
 		background: "#EAF2FF",
 		icon: "#B3DAFF"
 	},
+	banner: {},
 	image: {
 		background: "#EAF2FF",
 		icon: "#B3DAFF"
