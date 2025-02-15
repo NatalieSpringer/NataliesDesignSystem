@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toggle should render correctly when toggle value is false 1`] = `
+<RCTSwitch
+  accessibilityRole="switch"
+  onChange={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  onTintColor="rgba(0, 122, 255, 1)"
+  style={
+    {
+      "height": 31,
+      "width": 51,
+    }
+  }
+  value={false}
+/>
+`;
+
+exports[`Toggle should render correctly when toggle value is false 2`] = `
+<RCTSwitch
+  accessibilityRole="switch"
+  onChange={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  onTintColor="rgba(0, 122, 255, 1)"
+  style={
+    {
+      "height": 31,
+      "width": 51,
+    }
+  }
+  value={false}
+/>
+`;
+
+exports[`Toggle should render correctly when toggle value is true 1`] = `
+<RCTSwitch
+  accessibilityRole="switch"
+  onChange={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  onTintColor="rgba(10, 132, 255, 1)"
+  style={
+    {
+      "height": 31,
+      "width": 51,
+    }
+  }
+  value={true}
+/>
+`;
+
+exports[`Toggle should render correctly when toggle value is true 2`] = `
+<RCTSwitch
+  accessibilityRole="switch"
+  onChange={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  onTintColor="rgba(10, 132, 255, 1)"
+  style={
+    {
+      "height": 31,
+      "width": 51,
+    }
+  }
+  value={true}
+/>
+`;
