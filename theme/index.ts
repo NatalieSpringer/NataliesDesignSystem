@@ -8,6 +8,10 @@ const darkTheme = {
 		background: "#EAF2FF",
 		icon: "#B3DAFF"
 	},
+	image: {
+		background: "#EAF2FF",
+		icon: "#B3DAFF"
+	},
 	system: {
 		red: "rgba(255, 69, 58, 1)",
 		orange: "rgba(255, 159, 10, 1)",
@@ -32,6 +36,10 @@ const lightTheme = {
 		background: "white"
 	},
 	avatar: {
+		background: "#EAF2FF",
+		icon: "#B3DAFF"
+	},
+	image: {
 		background: "#EAF2FF",
 		icon: "#B3DAFF"
 	},
