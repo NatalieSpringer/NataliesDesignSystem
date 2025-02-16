@@ -1,6 +1,7 @@
 export * from "./Avatar";
 export * from "./Banner";
 export * from "./Button";
+export * from "./CardHorizontal";
 export * from "./Dialog";
 export * from "./Divider";
 export * from "./Icon";

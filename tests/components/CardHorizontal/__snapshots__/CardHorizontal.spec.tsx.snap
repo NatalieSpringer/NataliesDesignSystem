@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardHorizontal should render correctly in dark 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#2F3036",
+      "borderRadius": 16,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "padding": 20,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "width": "80%",
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "black",
+            "fontFamily": "SFProText-Regular",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          },
+          false,
+          {
+            "lineHeight": 24,
+          },
+        ]
+      }
+    >
+      Title
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "color": "black",
+            "fontFamily": "SFProText-Regular",
+            "fontSize": 14,
+          },
+          false,
+          {
+            "lineHeight": 21,
+          },
+        ]
+      }
+    >
+      Description
+    </Text>
+  </View>
+  <ViewManagerAdapter_SymbolModule
+    animated={false}
+    colors={[]}
+    name="chevron.right"
+    resizeMode="scaleAspectFit"
+    style={
+      [
+        {
+          "height": 24,
+          "width": 24,
+        },
+        [
+          {
+            "height": 16,
+            "width": 16,
+          },
+          undefined,
+        ],
+      ]
+    }
+    tintColor="#8F9098"
+    type="monochrome"
+    weight="regular"
+  />
+</View>
+`;
+
+exports[`CardHorizontal should render correctly in light 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#2F3036",
+      "borderRadius": 16,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "opacity": 1,
+      "padding": 20,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "width": "80%",
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "black",
+            "fontFamily": "SFProText-Regular",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          },
+          false,
+          {
+            "lineHeight": 24,
+          },
+        ]
+      }
+    >
+      Title
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "color": "black",
+            "fontFamily": "SFProText-Regular",
+            "fontSize": 14,
+          },
+          false,
+          {
+            "lineHeight": 21,
+          },
+        ]
+      }
+    >
+      Description
+    </Text>
+  </View>
+  <ViewManagerAdapter_SymbolModule
+    animated={false}
+    colors={[]}
+    name="chevron.right"
+    resizeMode="scaleAspectFit"
+    style={
+      [
+        {
+          "height": 24,
+          "width": 24,
+        },
+        [
+          {
+            "height": 16,
+            "width": 16,
+          },
+          undefined,
+        ],
+      ]
+    }
+    tintColor="#8F9098"
+    type="monochrome"
+    weight="regular"
+  />
+</View>
+`;
