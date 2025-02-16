@@ -34,7 +34,7 @@ exports[`RadioButton should render correctly in dark with text 1`] = `
     {
       "aspectRatio": 1,
       "backgroundColor": "rgba(10, 132, 255, 1)",
-      "borderColor": "#C5C6CC",
+      "borderColor": "#494A50",
       "borderRadius": 64,
       "borderWidth": 0,
       "justifyContent": "center",
@@ -91,7 +91,7 @@ exports[`RadioButton should render correctly in dark with text 2`] = `
     {
       "aspectRatio": 1,
       "backgroundColor": "transparent",
-      "borderColor": "#C5C6CC",
+      "borderColor": "#494A50",
       "borderRadius": 64,
       "borderWidth": 1,
       "justifyContent": "center",
@@ -136,7 +136,7 @@ exports[`RadioButton should render correctly in dark with text 3`] = `
     {
       "aspectRatio": 1,
       "backgroundColor": "rgba(10, 132, 255, 1)",
-      "borderColor": "#C5C6CC",
+      "borderColor": "#494A50",
       "borderRadius": 64,
       "borderWidth": 0,
       "justifyContent": "center",
@@ -193,7 +193,7 @@ exports[`RadioButton should render correctly in dark with text 4`] = `
     {
       "aspectRatio": 1,
       "backgroundColor": "transparent",
-      "borderColor": "#C5C6CC",
+      "borderColor": "#494A50",
       "borderRadius": 64,
       "borderWidth": 1,
       "justifyContent": "center",
@@ -238,7 +238,7 @@ exports[`RadioButton should render correctly in dark with text 5`] = `
     {
       "aspectRatio": 1,
       "backgroundColor": "rgba(10, 132, 255, 1)",
-      "borderColor": "#C5C6CC",
+      "borderColor": "#494A50",
       "borderRadius": 64,
       "borderWidth": 0,
       "justifyContent": "center",
@@ -295,7 +295,7 @@ exports[`RadioButton should render correctly in dark with text 6`] = `
     {
       "aspectRatio": 1,
       "backgroundColor": "transparent",
-      "borderColor": "#C5C6CC",
+      "borderColor": "#494A50",
       "borderRadius": 64,
       "borderWidth": 1,
       "justifyContent": "center",

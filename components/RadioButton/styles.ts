@@ -4,7 +4,7 @@ const stylesheet = createStyleSheet((theme) => ({
 	container: {
 		aspectRatio: 1,
 		borderRadius: 64,
-		borderColor: "#C5C6CC",
+		borderColor: theme.radioButton.border,
 		justifyContent: "center",
 		variants: {
 			selected: {
