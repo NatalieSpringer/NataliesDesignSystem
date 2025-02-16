@@ -1,8 +1,18 @@
 {
-  "name": "nataliesdesignsystem",
+  "name": "@nataliespringer/nataliesdesignsystem",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "license": "MIT",
+  "files": [
+    "assets",
+    "components",
+    "mocks",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NatalieSpringer/NataliesDesignSystem"
+  },
   "scripts": {
     "start": "expo start",
     "android": "npm run storybook:android",
@@ -17,7 +27,8 @@
     "clean": "expo prebuild --clean",
     "lint": "eslint .",
     "test": "jest",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "prepublishOnly": "node update-main.js"
   },
   "dependencies": {
     "@expo-google-fonts/roboto": "^0.2.3",
