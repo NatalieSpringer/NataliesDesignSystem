@@ -9,6 +9,7 @@ export * from "./Icon";
 export * from "./Image";
 export * from "./SegmentedControl";
 export * from "./Slider";
+export * from "./Tag";
 export * from "./Text";
 export * from "./TextInput";
 export * from "./Toggle";

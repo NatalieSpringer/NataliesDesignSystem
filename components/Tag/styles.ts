@@ -3,10 +3,11 @@ import { createStyleSheet } from "react-native-unistyles";
 const stylesheet = createStyleSheet((theme) => ({
 	container: {
 		alignItems: "center",
-		aspectRatio: 1,
+		alignSelf: "flex-start",
 		borderRadius: 12,
 		justifyContent: "center",
-		width: 24,
+		paddingHorizontal: 8,
+		height: 24,
 		variants: {
 			variant: {
 				primary: {
@@ -14,7 +15,7 @@ const stylesheet = createStyleSheet((theme) => ({
 					textColor: "white"
 				},
 				secondary: {
-					backgroundColor: theme.badge.background,
+					backgroundColor: theme.tag.background,
 					textColor: theme.system.blue
 				}
 			}
