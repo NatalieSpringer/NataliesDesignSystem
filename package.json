@@ -1,11 +1,12 @@
 {
   "name": "@nataliespringer/nataliesdesignsystem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "node_modules/expo/AppEntry.js",
   "license": "MIT",
   "files": [
     "assets",
     "components",
+    "index.ts",
     "mocks",
     "theme"
   ],
