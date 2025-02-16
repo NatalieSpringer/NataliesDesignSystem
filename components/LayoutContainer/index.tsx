@@ -12,7 +12,7 @@ export const LayoutContainer = ({
 	const { styles } = useStyles(stylesheet);
 
 	return (
-		<SafeAreaView>
+		<SafeAreaView style={styles.safeArea}>
 			{isScroll ? (
 				<Animated.ScrollView
 					entering={FadeInUp}

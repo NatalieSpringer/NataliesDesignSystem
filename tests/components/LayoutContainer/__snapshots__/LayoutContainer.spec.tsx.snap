@@ -1,7 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`LayoutContainer should render correctly in dark 1`] = `
-<RCTSafeAreaView>
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "#111111",
+    }
+  }
+>
   <RCTScrollView
     collapsable={false}
     entering={[Function]}
@@ -47,7 +53,13 @@ exports[`LayoutContainer should render correctly in dark 1`] = `
 `;
 
 exports[`LayoutContainer should render correctly in dark 2`] = `
-<RCTSafeAreaView>
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "white",
+    }
+  }
+>
   <View
     collapsable={false}
     entering={[Function]}
@@ -89,7 +101,13 @@ exports[`LayoutContainer should render correctly in dark 2`] = `
 `;
 
 exports[`LayoutContainer should render correctly in light 1`] = `
-<RCTSafeAreaView>
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "#111111",
+    }
+  }
+>
   <RCTScrollView
     collapsable={false}
     entering={[Function]}
@@ -135,7 +153,13 @@ exports[`LayoutContainer should render correctly in light 1`] = `
 `;
 
 exports[`LayoutContainer should render correctly in light 2`] = `
-<RCTSafeAreaView>
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "white",
+    }
+  }
+>
   <View
     collapsable={false}
     entering={[Function]}
