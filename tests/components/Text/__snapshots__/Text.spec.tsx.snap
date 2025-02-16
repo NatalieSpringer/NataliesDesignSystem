@@ -11,6 +11,9 @@ exports[`Text should render correctly small in dark 1`] = `
       },
       false,
       {
+        "textAlign": "left",
+      },
+      {
         "lineHeight": 24,
       },
     ]
@@ -30,6 +33,9 @@ exports[`Text should render correctly small in light 1`] = `
         "fontSize": 16,
       },
       false,
+      {
+        "textAlign": "left",
+      },
       {
         "lineHeight": 24,
       },

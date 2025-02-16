@@ -1,0 +1,1581 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Option should render correctly in dark when selected is false 1`] = `
+<View
+  accessibilityLabel="Left Title Left Subtitle Right Title Right Subtitle"
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "transparent",
+      "borderColor": "#D4D6DD",
+      "borderRadius": 16,
+      "borderWidth": 1,
+      "flexDirection": "row",
+      "gap": "2%",
+      "opacity": 1,
+      "padding": 20,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "width": "8%",
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": true,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "aspectRatio": 1,
+          "backgroundColor": "transparent",
+          "borderColor": "#494A50",
+          "borderRadius": 64,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 24,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "width": "90%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            },
+            false,
+            {
+              "textAlign": "left",
+            },
+            {
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        Left Title
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 12,
+            },
+            {
+              "color": "rgba(10, 132, 255, 1)",
+            },
+            {
+              "textAlign": "left",
+            },
+            {
+              "lineHeight": 18,
+            },
+          ]
+        }
+      >
+        Left Subtitle
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            },
+            false,
+            {
+              "textAlign": "right",
+            },
+            {
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        Right Title
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 12,
+            },
+            false,
+            {
+              "textAlign": "right",
+            },
+            {
+              "lineHeight": 18,
+            },
+          ]
+        }
+      >
+        Right Subtitle
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "position": "absolute",
+        "right": -10,
+        "top": -10,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="star"
+      accessibilityRole="image"
+      accessible={true}
+      style={
+        {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "backgroundColor": "rgba(0, 122, 255, 1)",
+          "borderRadius": 12,
+          "justifyContent": "center",
+          "textColor": "white",
+          "width": 24,
+        }
+      }
+    >
+      <ViewManagerAdapter_SymbolModule
+        animated={false}
+        colors={[]}
+        name="star.fill"
+        resizeMode="scaleAspectFit"
+        style={
+          [
+            {
+              "height": 24,
+              "width": 24,
+            },
+            [
+              {
+                "height": 15,
+                "width": 15,
+              },
+              undefined,
+            ],
+          ]
+        }
+        tintColor="white"
+        type="monochrome"
+        weight="bold"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Option should render correctly in dark when selected is true 1`] = `
+<View
+  accessibilityLabel="Left Title Left Subtitle Right Title Right Subtitle"
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#2F3036",
+      "borderRadius": 16,
+      "flexDirection": "row",
+      "gap": "2%",
+      "opacity": 1,
+      "padding": 20,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "width": "8%",
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": true,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "aspectRatio": 1,
+          "backgroundColor": "rgba(10, 132, 255, 1)",
+          "borderColor": "#494A50",
+          "borderRadius": 64,
+          "borderWidth": 0,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 24,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignSelf": "center",
+            "aspectRatio": 1,
+            "backgroundColor": "white",
+            "borderRadius": 24,
+            "width": 10,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "width": "90%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            },
+            false,
+            {
+              "textAlign": "left",
+            },
+            {
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        Left Title
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 12,
+            },
+            {
+              "color": "rgba(10, 132, 255, 1)",
+            },
+            {
+              "textAlign": "left",
+            },
+            {
+              "lineHeight": 18,
+            },
+          ]
+        }
+      >
+        Left Subtitle
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            },
+            false,
+            {
+              "textAlign": "right",
+            },
+            {
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        Right Title
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 12,
+            },
+            false,
+            {
+              "textAlign": "right",
+            },
+            {
+              "lineHeight": 18,
+            },
+          ]
+        }
+      >
+        Right Subtitle
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "position": "absolute",
+        "right": -10,
+        "top": -10,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="star"
+      accessibilityRole="image"
+      accessible={true}
+      style={
+        {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "backgroundColor": "rgba(0, 122, 255, 1)",
+          "borderRadius": 12,
+          "justifyContent": "center",
+          "textColor": "white",
+          "width": 24,
+        }
+      }
+    >
+      <ViewManagerAdapter_SymbolModule
+        animated={false}
+        colors={[]}
+        name="star.fill"
+        resizeMode="scaleAspectFit"
+        style={
+          [
+            {
+              "height": 24,
+              "width": 24,
+            },
+            [
+              {
+                "height": 15,
+                "width": 15,
+              },
+              undefined,
+            ],
+          ]
+        }
+        tintColor="white"
+        type="monochrome"
+        weight="bold"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Option should render correctly in dark when selected is undefined 1`] = `
+<View
+  accessibilityLabel="Left Title Left Subtitle Right Title Right Subtitle"
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "transparent",
+      "borderColor": "#D4D6DD",
+      "borderRadius": 16,
+      "borderWidth": 1,
+      "flexDirection": "row",
+      "gap": "2%",
+      "opacity": 1,
+      "padding": 20,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "width": "8%",
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": true,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "aspectRatio": 1,
+          "backgroundColor": "transparent",
+          "borderColor": "#494A50",
+          "borderRadius": 64,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 24,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "width": "90%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            },
+            false,
+            {
+              "textAlign": "left",
+            },
+            {
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        Left Title
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 12,
+            },
+            {
+              "color": "rgba(10, 132, 255, 1)",
+            },
+            {
+              "textAlign": "left",
+            },
+            {
+              "lineHeight": 18,
+            },
+          ]
+        }
+      >
+        Left Subtitle
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            },
+            false,
+            {
+              "textAlign": "right",
+            },
+            {
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        Right Title
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 12,
+            },
+            false,
+            {
+              "textAlign": "right",
+            },
+            {
+              "lineHeight": 18,
+            },
+          ]
+        }
+      >
+        Right Subtitle
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "position": "absolute",
+        "right": -10,
+        "top": -10,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="star"
+      accessibilityRole="image"
+      accessible={true}
+      style={
+        {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "backgroundColor": "rgba(0, 122, 255, 1)",
+          "borderRadius": 12,
+          "justifyContent": "center",
+          "textColor": "white",
+          "width": 24,
+        }
+      }
+    >
+      <ViewManagerAdapter_SymbolModule
+        animated={false}
+        colors={[]}
+        name="star.fill"
+        resizeMode="scaleAspectFit"
+        style={
+          [
+            {
+              "height": 24,
+              "width": 24,
+            },
+            [
+              {
+                "height": 15,
+                "width": 15,
+              },
+              undefined,
+            ],
+          ]
+        }
+        tintColor="white"
+        type="monochrome"
+        weight="bold"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Option should render correctly in light when selected is false 1`] = `
+<View
+  accessibilityLabel="Left Title Left Subtitle Right Title Right Subtitle"
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "transparent",
+      "borderColor": "#D4D6DD",
+      "borderRadius": 16,
+      "borderWidth": 1,
+      "flexDirection": "row",
+      "gap": "2%",
+      "opacity": 1,
+      "padding": 20,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "width": "8%",
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": true,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "aspectRatio": 1,
+          "backgroundColor": "transparent",
+          "borderColor": "#494A50",
+          "borderRadius": 64,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 24,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "width": "90%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            },
+            false,
+            {
+              "textAlign": "left",
+            },
+            {
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        Left Title
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 12,
+            },
+            {
+              "color": "rgba(10, 132, 255, 1)",
+            },
+            {
+              "textAlign": "left",
+            },
+            {
+              "lineHeight": 18,
+            },
+          ]
+        }
+      >
+        Left Subtitle
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            },
+            false,
+            {
+              "textAlign": "right",
+            },
+            {
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        Right Title
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 12,
+            },
+            false,
+            {
+              "textAlign": "right",
+            },
+            {
+              "lineHeight": 18,
+            },
+          ]
+        }
+      >
+        Right Subtitle
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "position": "absolute",
+        "right": -10,
+        "top": -10,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="star"
+      accessibilityRole="image"
+      accessible={true}
+      style={
+        {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "backgroundColor": "rgba(0, 122, 255, 1)",
+          "borderRadius": 12,
+          "justifyContent": "center",
+          "textColor": "white",
+          "width": 24,
+        }
+      }
+    >
+      <ViewManagerAdapter_SymbolModule
+        animated={false}
+        colors={[]}
+        name="star.fill"
+        resizeMode="scaleAspectFit"
+        style={
+          [
+            {
+              "height": 24,
+              "width": 24,
+            },
+            [
+              {
+                "height": 15,
+                "width": 15,
+              },
+              undefined,
+            ],
+          ]
+        }
+        tintColor="white"
+        type="monochrome"
+        weight="bold"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Option should render correctly in light when selected is true 1`] = `
+<View
+  accessibilityLabel="Left Title Left Subtitle Right Title Right Subtitle"
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#2F3036",
+      "borderRadius": 16,
+      "flexDirection": "row",
+      "gap": "2%",
+      "opacity": 1,
+      "padding": 20,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "width": "8%",
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": true,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "aspectRatio": 1,
+          "backgroundColor": "rgba(10, 132, 255, 1)",
+          "borderColor": "#494A50",
+          "borderRadius": 64,
+          "borderWidth": 0,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 24,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignSelf": "center",
+            "aspectRatio": 1,
+            "backgroundColor": "white",
+            "borderRadius": 24,
+            "width": 10,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "width": "90%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            },
+            false,
+            {
+              "textAlign": "left",
+            },
+            {
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        Left Title
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 12,
+            },
+            {
+              "color": "rgba(10, 132, 255, 1)",
+            },
+            {
+              "textAlign": "left",
+            },
+            {
+              "lineHeight": 18,
+            },
+          ]
+        }
+      >
+        Left Subtitle
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            },
+            false,
+            {
+              "textAlign": "right",
+            },
+            {
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        Right Title
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 12,
+            },
+            false,
+            {
+              "textAlign": "right",
+            },
+            {
+              "lineHeight": 18,
+            },
+          ]
+        }
+      >
+        Right Subtitle
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "position": "absolute",
+        "right": -10,
+        "top": -10,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="star"
+      accessibilityRole="image"
+      accessible={true}
+      style={
+        {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "backgroundColor": "rgba(0, 122, 255, 1)",
+          "borderRadius": 12,
+          "justifyContent": "center",
+          "textColor": "white",
+          "width": 24,
+        }
+      }
+    >
+      <ViewManagerAdapter_SymbolModule
+        animated={false}
+        colors={[]}
+        name="star.fill"
+        resizeMode="scaleAspectFit"
+        style={
+          [
+            {
+              "height": 24,
+              "width": 24,
+            },
+            [
+              {
+                "height": 15,
+                "width": 15,
+              },
+              undefined,
+            ],
+          ]
+        }
+        tintColor="white"
+        type="monochrome"
+        weight="bold"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Option should render correctly in light when selected is undefined 1`] = `
+<View
+  accessibilityLabel="Left Title Left Subtitle Right Title Right Subtitle"
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "transparent",
+      "borderColor": "#D4D6DD",
+      "borderRadius": 16,
+      "borderWidth": 1,
+      "flexDirection": "row",
+      "gap": "2%",
+      "opacity": 1,
+      "padding": 20,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "width": "8%",
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": true,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "aspectRatio": 1,
+          "backgroundColor": "transparent",
+          "borderColor": "#494A50",
+          "borderRadius": 64,
+          "borderWidth": 1,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 24,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "width": "90%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "white",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            },
+            false,
+            {
+              "textAlign": "left",
+            },
+            {
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        Left Title
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 12,
+            },
+            {
+              "color": "rgba(10, 132, 255, 1)",
+            },
+            {
+              "textAlign": "left",
+            },
+            {
+              "lineHeight": 18,
+            },
+          ]
+        }
+      >
+        Left Subtitle
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            },
+            false,
+            {
+              "textAlign": "right",
+            },
+            {
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        Right Title
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 12,
+            },
+            false,
+            {
+              "textAlign": "right",
+            },
+            {
+              "lineHeight": 18,
+            },
+          ]
+        }
+      >
+        Right Subtitle
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "position": "absolute",
+        "right": -10,
+        "top": -10,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="star"
+      accessibilityRole="image"
+      accessible={true}
+      style={
+        {
+          "alignItems": "center",
+          "aspectRatio": 1,
+          "backgroundColor": "rgba(0, 122, 255, 1)",
+          "borderRadius": 12,
+          "justifyContent": "center",
+          "textColor": "white",
+          "width": 24,
+        }
+      }
+    >
+      <ViewManagerAdapter_SymbolModule
+        animated={false}
+        colors={[]}
+        name="star.fill"
+        resizeMode="scaleAspectFit"
+        style={
+          [
+            {
+              "height": 24,
+              "width": 24,
+            },
+            [
+              {
+                "height": 15,
+                "width": 15,
+              },
+              undefined,
+            ],
+          ]
+        }
+        tintColor="white"
+        type="monochrome"
+        weight="bold"
+      />
+    </View>
+  </View>
+</View>
+`;
