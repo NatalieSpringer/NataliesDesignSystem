@@ -8,6 +8,7 @@ import { IconType } from "./types";
 
 export const androidMapping = {
 	checkmark: "check-circle",
+	check: "check",
 	chevronDown: "keyboard-arrow-down",
 	chevronLeft: "chevron-left",
 	chevronRight: "chevron-right",
