@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Divider should render correctly in dark 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#2F3036",
+      "height": 2,
+      "width": "100%",
+    }
+  }
+/>
+`;
+
+exports[`Divider should render correctly in light 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#E8E9F1",
+      "height": 2,
+      "width": "100%",
+    }
+  }
+/>
+`;
