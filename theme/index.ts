@@ -11,6 +11,10 @@ const darkTheme = {
 	banner: {
 		background: "#2F3036"
 	},
+	card: {
+		background: "#2F3036",
+		icon: "#8F9098"
+	},
 	divider: {
 		background: "#2F3036"
 	},
@@ -57,6 +61,10 @@ const lightTheme = {
 	},
 	banner: {
 		background: "#EAF2FF"
+	},
+	card: {
+		background: "#F8F9FE",
+		icon: "#71727A"
 	},
 	divider: {
 		background: "#E8E9F1"
