@@ -58,6 +58,9 @@ exports[`Tag should render correctly in dark 1`] = `
           "color": "white",
         },
         {
+          "textAlign": "left",
+        },
+        {
           "lineHeight": 21,
         },
       ]
@@ -124,6 +127,9 @@ exports[`Tag should render correctly in dark 2`] = `
         },
         {
           "color": "rgba(10, 132, 255, 1)",
+        },
+        {
+          "textAlign": "left",
         },
         {
           "lineHeight": 21,
@@ -194,6 +200,9 @@ exports[`Tag should render correctly in dark with onPress 1`] = `
           "color": "white",
         },
         {
+          "textAlign": "left",
+        },
+        {
           "lineHeight": 21,
         },
       ]
@@ -260,6 +269,9 @@ exports[`Tag should render correctly in dark with onPress 2`] = `
         },
         {
           "color": "rgba(0, 122, 255, 1)",
+        },
+        {
+          "textAlign": "left",
         },
         {
           "lineHeight": 21,
@@ -330,6 +342,9 @@ exports[`Tag should render correctly in light 1`] = `
           "color": "white",
         },
         {
+          "textAlign": "left",
+        },
+        {
           "lineHeight": 21,
         },
       ]
@@ -396,6 +411,9 @@ exports[`Tag should render correctly in light 2`] = `
         },
         {
           "color": "rgba(10, 132, 255, 1)",
+        },
+        {
+          "textAlign": "left",
         },
         {
           "lineHeight": 21,
@@ -466,6 +484,9 @@ exports[`Tag should render correctly in light with onPress 1`] = `
           "color": "white",
         },
         {
+          "textAlign": "left",
+        },
+        {
           "lineHeight": 21,
         },
       ]
@@ -532,6 +553,9 @@ exports[`Tag should render correctly in light with onPress 2`] = `
         },
         {
           "color": "rgba(0, 122, 255, 1)",
+        },
+        {
+          "textAlign": "left",
         },
         {
           "lineHeight": 21,

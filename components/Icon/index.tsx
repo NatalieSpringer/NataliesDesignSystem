@@ -21,6 +21,7 @@ export const androidMapping = {
 	search: "search",
 	minus: "remove",
 	plus: "add",
+	star: "star",
 	close: "close"
 } as Partial<
 	Record<IconType, React.ComponentProps<typeof MaterialIcons>["name"]>

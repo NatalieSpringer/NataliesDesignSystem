@@ -4,7 +4,13 @@ import { TextProps } from "./types";
 import { stylesheet } from "./styles";
 import { useStyles } from "react-native-unistyles";
 
-export const Text = ({ children, color, size, weight }: TextProps) => {
+export const Text = ({
+	align = "left",
+	children,
+	color,
+	size,
+	weight
+}: TextProps) => {
 	const { styles } = useStyles(stylesheet, {
 		size,
 		weight
@@ -13,7 +19,14 @@ export const Text = ({ children, color, size, weight }: TextProps) => {
 	const lineHeight = styles.text.fontSize * 1.5;
 
 	return (
-		<TextRN style={[styles.text, !!color && { color }, { lineHeight }]}>
+		<TextRN
+			style={[
+				styles.text,
+				!!color && { color },
+				{ textAlign: align },
+				{ lineHeight }
+			]}
+		>
 			{children}
 		</TextRN>
 	);

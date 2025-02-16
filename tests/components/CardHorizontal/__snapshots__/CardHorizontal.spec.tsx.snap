@@ -61,6 +61,9 @@ exports[`CardHorizontal should render correctly in dark 1`] = `
           },
           false,
           {
+            "textAlign": "left",
+          },
+          {
             "lineHeight": 24,
           },
         ]
@@ -77,6 +80,9 @@ exports[`CardHorizontal should render correctly in dark 1`] = `
             "fontSize": 14,
           },
           false,
+          {
+            "textAlign": "left",
+          },
           {
             "lineHeight": 21,
           },
@@ -174,6 +180,9 @@ exports[`CardHorizontal should render correctly in light 1`] = `
           },
           false,
           {
+            "textAlign": "left",
+          },
+          {
             "lineHeight": 24,
           },
         ]
@@ -190,6 +199,9 @@ exports[`CardHorizontal should render correctly in light 1`] = `
             "fontSize": 14,
           },
           false,
+          {
+            "textAlign": "left",
+          },
           {
             "lineHeight": 21,
           },

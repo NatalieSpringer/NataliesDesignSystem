@@ -11,7 +11,8 @@ export const RadioButton = ({ onPress, selected, size }: RadioButtonProps) => {
 		<TouchableOpacity
 			accessible
 			accessibilityRole="button"
-			onPress={(): void => onPress(!selected)}
+			disabled={!onPress}
+			onPress={(): void => onPress?.(!selected)}
 			style={styles.container}
 		>
 			{!!selected && <View style={styles.innerCircle} />}
