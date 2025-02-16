@@ -1,0 +1,613 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioButton should render correctly in dark with text 1`] = `
+<View
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "aspectRatio": 1,
+      "backgroundColor": "rgba(10, 132, 255, 1)",
+      "borderColor": "#C5C6CC",
+      "borderRadius": 64,
+      "borderWidth": 0,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 16,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignSelf": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "white",
+        "borderRadius": 24,
+        "width": 6,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`RadioButton should render correctly in dark with text 2`] = `
+<View
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "aspectRatio": 1,
+      "backgroundColor": "transparent",
+      "borderColor": "#C5C6CC",
+      "borderRadius": 64,
+      "borderWidth": 1,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 16,
+    }
+  }
+/>
+`;
+
+exports[`RadioButton should render correctly in dark with text 3`] = `
+<View
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "aspectRatio": 1,
+      "backgroundColor": "rgba(10, 132, 255, 1)",
+      "borderColor": "#C5C6CC",
+      "borderRadius": 64,
+      "borderWidth": 0,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 24,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignSelf": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "white",
+        "borderRadius": 24,
+        "width": 10,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`RadioButton should render correctly in dark with text 4`] = `
+<View
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "aspectRatio": 1,
+      "backgroundColor": "transparent",
+      "borderColor": "#C5C6CC",
+      "borderRadius": 64,
+      "borderWidth": 1,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 24,
+    }
+  }
+/>
+`;
+
+exports[`RadioButton should render correctly in dark with text 5`] = `
+<View
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "aspectRatio": 1,
+      "backgroundColor": "rgba(10, 132, 255, 1)",
+      "borderColor": "#C5C6CC",
+      "borderRadius": 64,
+      "borderWidth": 0,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 32,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignSelf": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "white",
+        "borderRadius": 24,
+        "width": 12,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`RadioButton should render correctly in dark with text 6`] = `
+<View
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "aspectRatio": 1,
+      "backgroundColor": "transparent",
+      "borderColor": "#C5C6CC",
+      "borderRadius": 64,
+      "borderWidth": 1,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 32,
+    }
+  }
+/>
+`;
+
+exports[`RadioButton should render correctly in light with text 1`] = `
+<View
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "aspectRatio": 1,
+      "backgroundColor": "rgba(0, 122, 255, 1)",
+      "borderColor": "#C5C6CC",
+      "borderRadius": 64,
+      "borderWidth": 0,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 16,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignSelf": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "white",
+        "borderRadius": 24,
+        "width": 6,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`RadioButton should render correctly in light with text 2`] = `
+<View
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "aspectRatio": 1,
+      "backgroundColor": "transparent",
+      "borderColor": "#C5C6CC",
+      "borderRadius": 64,
+      "borderWidth": 1,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 16,
+    }
+  }
+/>
+`;
+
+exports[`RadioButton should render correctly in light with text 3`] = `
+<View
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "aspectRatio": 1,
+      "backgroundColor": "rgba(0, 122, 255, 1)",
+      "borderColor": "#C5C6CC",
+      "borderRadius": 64,
+      "borderWidth": 0,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 24,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignSelf": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "white",
+        "borderRadius": 24,
+        "width": 10,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`RadioButton should render correctly in light with text 4`] = `
+<View
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "aspectRatio": 1,
+      "backgroundColor": "transparent",
+      "borderColor": "#C5C6CC",
+      "borderRadius": 64,
+      "borderWidth": 1,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 24,
+    }
+  }
+/>
+`;
+
+exports[`RadioButton should render correctly in light with text 5`] = `
+<View
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "aspectRatio": 1,
+      "backgroundColor": "rgba(0, 122, 255, 1)",
+      "borderColor": "#C5C6CC",
+      "borderRadius": 64,
+      "borderWidth": 0,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 32,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignSelf": "center",
+        "aspectRatio": 1,
+        "backgroundColor": "white",
+        "borderRadius": 24,
+        "width": 12,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`RadioButton should render correctly in light with text 6`] = `
+<View
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "aspectRatio": 1,
+      "backgroundColor": "transparent",
+      "borderColor": "#C5C6CC",
+      "borderRadius": 64,
+      "borderWidth": 1,
+      "justifyContent": "center",
+      "opacity": 1,
+      "width": 32,
+    }
+  }
+/>
+`;
