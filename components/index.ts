@@ -7,6 +7,7 @@ export * from "./Dialog";
 export * from "./Divider";
 export * from "./Icon";
 export * from "./Image";
+export * from "./LayoutContainer";
 export * from "./Option";
 export * from "./RadioButton";
 export * from "./SegmentedControl";
