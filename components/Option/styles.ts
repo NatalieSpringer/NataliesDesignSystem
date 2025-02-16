@@ -4,7 +4,7 @@ const stylesheet = createStyleSheet((theme) => ({
 	badge: {
 		position: "absolute",
 		right: -10,
-		top: -10,
+		top: -10
 	},
 	container: {
 		alignItems: "center",
@@ -17,12 +17,12 @@ const stylesheet = createStyleSheet((theme) => ({
 		variants: {
 			selected: {
 				true: {
-					backgroundColor: theme.card.background,
+					backgroundColor: theme.card.background
 				},
 				false: {
 					backgroundColor: "transparent",
 					borderColor: "#D4D6DD",
-					borderWidth: 1,
+					borderWidth: 1
 				}
 			}
 		}
@@ -33,10 +33,10 @@ const stylesheet = createStyleSheet((theme) => ({
 	text: {
 		flexDirection: "row",
 		justifyContent: "space-between",
-		width: "90%",
+		width: "90%"
 	},
 	textContainer: {
-		gap: 5,
+		gap: 5
 	}
 }));
 

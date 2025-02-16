@@ -5,6 +5,7 @@ interface OptionProps {
 	rightTitle: string;
 	rightSubtitle: string;
 	selected?: boolean;
+	showIcon?: boolean;
 }
 
 export { OptionProps };

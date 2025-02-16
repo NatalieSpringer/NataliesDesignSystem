@@ -14,6 +14,7 @@ export const Option = ({
 	rightSubtitle,
 	rightTitle,
 	selected = false,
+	showIcon = false
 }: OptionProps) => {
 	const { styles, theme } = useStyles(stylesheet, {
 		selected
@@ -24,7 +25,9 @@ export const Option = ({
 			accessible
 			accessibilityLabel={`${leftTitle} ${leftSubtitle} ${rightTitle} ${rightSubtitle}`}
 			accessibilityRole="button"
-			onPress={(): void => { onPress(!selected)}}
+			onPress={(): void => {
+				onPress(!selected);
+			}}
 			style={styles.container}
 		>
 			<View style={styles.radioButton}>
@@ -35,18 +38,28 @@ export const Option = ({
 					<Text size="s" weight="bold">
 						{leftTitle}
 					</Text>
-					{!!leftSubtitle && (<Text color={theme.system.blue} size="xxs">{leftSubtitle}</Text>)}
+					{!!leftSubtitle && (
+						<Text color={theme.system.blue} size="xxs">
+							{leftSubtitle}
+						</Text>
+					)}
 				</View>
 				<View style={styles.textContainer}>
 					<Text align="right" size="s" weight="bold">
 						{rightTitle}
 					</Text>
-					{!!rightSubtitle && (<Text align="right" size="xxs">{rightSubtitle}</Text>)}
+					{!!rightSubtitle && (
+						<Text align="right" size="xxs">
+							{rightSubtitle}
+						</Text>
+					)}
 				</View>
 			</View>
-			<View style={styles.badge}>
-				<Badge name="star" variant="primary" />
-			</View>
+			{showIcon && (
+				<View style={styles.badge}>
+					<Badge name="star" variant="primary" />
+				</View>
+			)}
 		</TouchableOpacity>
 	);
 };
