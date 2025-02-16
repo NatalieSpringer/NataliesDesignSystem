@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge should render correctly in dark with icon 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "aspectRatio": 1,
+      "backgroundColor": "rgba(0, 122, 255, 1)",
+      "borderRadius": 12,
+      "justifyContent": "center",
+      "textColor": "white",
+      "width": 24,
+    }
+  }
+>
+  <ViewManagerAdapter_SymbolModule
+    animated={false}
+    colors={[]}
+    name="checkmark.circle.fill"
+    resizeMode="scaleAspectFit"
+    style={
+      [
+        {
+          "height": 24,
+          "width": 24,
+        },
+        [
+          {
+            "height": 15,
+            "width": 15,
+          },
+          undefined,
+        ],
+      ]
+    }
+    tintColor="white"
+    type="monochrome"
+    weight="bold"
+  />
+</View>
+`;
+
+exports[`Badge should render correctly in dark with icon 2`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "aspectRatio": 1,
+      "backgroundColor": "#B3DAFF",
+      "borderRadius": 12,
+      "justifyContent": "center",
+      "textColor": "rgba(10, 132, 255, 1)",
+      "width": 24,
+    }
+  }
+>
+  <ViewManagerAdapter_SymbolModule
+    animated={false}
+    colors={[]}
+    name="checkmark.circle.fill"
+    resizeMode="scaleAspectFit"
+    style={
+      [
+        {
+          "height": 24,
+          "width": 24,
+        },
+        [
+          {
+            "height": 15,
+            "width": 15,
+          },
+          undefined,
+        ],
+      ]
+    }
+    tintColor="rgba(10, 132, 255, 1)"
+    type="monochrome"
+    weight="bold"
+  />
+</View>
+`;
+
+exports[`Badge should render correctly in dark with text 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "aspectRatio": 1,
+      "backgroundColor": "rgba(10, 132, 255, 1)",
+      "borderRadius": 12,
+      "justifyContent": "center",
+      "textColor": "white",
+      "width": 24,
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "white",
+          "fontFamily": "SFProText-Regular",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        },
+        {
+          "color": "white",
+        },
+        {
+          "lineHeight": 24,
+        },
+      ]
+    }
+  >
+    1
+  </Text>
+</View>
+`;
+
+exports[`Badge should render correctly in dark with text 2`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "aspectRatio": 1,
+      "backgroundColor": "#B3DAFF",
+      "borderRadius": 12,
+      "justifyContent": "center",
+      "textColor": "rgba(0, 122, 255, 1)",
+      "width": 24,
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "white",
+          "fontFamily": "SFProText-Regular",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        },
+        {
+          "color": "rgba(0, 122, 255, 1)",
+        },
+        {
+          "lineHeight": 24,
+        },
+      ]
+    }
+  >
+    1
+  </Text>
+</View>
+`;
+
+exports[`Badge should render correctly in light with icon 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "aspectRatio": 1,
+      "backgroundColor": "rgba(10, 132, 255, 1)",
+      "borderRadius": 12,
+      "justifyContent": "center",
+      "textColor": "white",
+      "width": 24,
+    }
+  }
+>
+  <ViewManagerAdapter_SymbolModule
+    animated={false}
+    colors={[]}
+    name="checkmark.circle.fill"
+    resizeMode="scaleAspectFit"
+    style={
+      [
+        {
+          "height": 24,
+          "width": 24,
+        },
+        [
+          {
+            "height": 15,
+            "width": 15,
+          },
+          undefined,
+        ],
+      ]
+    }
+    tintColor="white"
+    type="monochrome"
+    weight="bold"
+  />
+</View>
+`;
+
+exports[`Badge should render correctly in light with icon 2`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "aspectRatio": 1,
+      "backgroundColor": "#B3DAFF",
+      "borderRadius": 12,
+      "justifyContent": "center",
+      "textColor": "rgba(0, 122, 255, 1)",
+      "width": 24,
+    }
+  }
+>
+  <ViewManagerAdapter_SymbolModule
+    animated={false}
+    colors={[]}
+    name="checkmark.circle.fill"
+    resizeMode="scaleAspectFit"
+    style={
+      [
+        {
+          "height": 24,
+          "width": 24,
+        },
+        [
+          {
+            "height": 15,
+            "width": 15,
+          },
+          undefined,
+        ],
+      ]
+    }
+    tintColor="rgba(0, 122, 255, 1)"
+    type="monochrome"
+    weight="bold"
+  />
+</View>
+`;
+
+exports[`Badge should render correctly in light with text 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "aspectRatio": 1,
+      "backgroundColor": "rgba(0, 122, 255, 1)",
+      "borderRadius": 12,
+      "justifyContent": "center",
+      "textColor": "white",
+      "width": 24,
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "black",
+          "fontFamily": "SFProText-Regular",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        },
+        {
+          "color": "white",
+        },
+        {
+          "lineHeight": 24,
+        },
+      ]
+    }
+  >
+    1
+  </Text>
+</View>
+`;
+
+exports[`Badge should render correctly in light with text 2`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "aspectRatio": 1,
+      "backgroundColor": "#B3DAFF",
+      "borderRadius": 12,
+      "justifyContent": "center",
+      "textColor": "rgba(10, 132, 255, 1)",
+      "width": 24,
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "black",
+          "fontFamily": "SFProText-Regular",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        },
+        {
+          "color": "rgba(10, 132, 255, 1)",
+        },
+        {
+          "lineHeight": 24,
+        },
+      ]
+    }
+  >
+    1
+  </Text>
+</View>
+`;

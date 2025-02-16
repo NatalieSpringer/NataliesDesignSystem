@@ -4,6 +4,7 @@ import { IconType } from "./types";
 
 const iOSMapping = {
 	checkmark: "checkmark.circle.fill",
+	check: "checkmark",
 	chevronDown: "chevron.down",
 	chevronLeft: "chevron.left",
 	chevronRight: "chevron.right",
