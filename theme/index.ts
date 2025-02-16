@@ -25,6 +25,9 @@ const darkTheme = {
 		background: "#EAF2FF",
 		icon: "#B3DAFF"
 	},
+	radioButton: {
+		border: "#494A50"
+	},
 	segmentedControl: {
 		background: "#2F3036",
 		textNotSelected: "#8F9098"
@@ -81,6 +84,9 @@ const lightTheme = {
 	image: {
 		background: "#EAF2FF",
 		icon: "#B3DAFF"
+	},
+	radioButton: {
+		border: "#C5C6CC"
 	},
 	segmentedControl: {
 		background: "#F8F9FE",
