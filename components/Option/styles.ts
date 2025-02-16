@@ -18,7 +18,9 @@ const stylesheet = createStyleSheet((theme) => ({
 		variants: {
 			selected: {
 				true: {
-					backgroundColor: theme.card.background
+					backgroundColor: theme.card.background,
+					borderColor: theme.card.background,
+					borderWidth: 1
 				},
 				false: {
 					backgroundColor: "transparent",
