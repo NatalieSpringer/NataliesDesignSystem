@@ -14,7 +14,13 @@ export const CardHorizontal = ({
 	const { styles, theme } = useStyles(stylesheet);
 
 	return (
-		<TouchableOpacity onPress={onPress} style={styles.container}>
+		<TouchableOpacity
+			accessible
+			accessibilityLabel={`${title} ${description}`}
+			accessibilityRole="button"
+			onPress={onPress}
+			style={styles.container}
+		>
 			<View style={styles.textContainer}>
 				<Text size="s" weight="bold">
 					{title}

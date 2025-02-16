@@ -2,6 +2,8 @@
 
 exports[`CardHorizontal should render correctly in dark 1`] = `
 <View
+  accessibilityLabel="Title Description"
+  accessibilityRole="button"
   accessibilityState={
     {
       "busy": undefined,
@@ -113,6 +115,8 @@ exports[`CardHorizontal should render correctly in dark 1`] = `
 
 exports[`CardHorizontal should render correctly in light 1`] = `
 <View
+  accessibilityLabel="Title Description"
+  accessibilityRole="button"
   accessibilityState={
     {
       "busy": undefined,
