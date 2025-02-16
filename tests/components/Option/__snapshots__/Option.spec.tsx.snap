@@ -506,7 +506,9 @@ exports[`Option should render correctly in dark when selected is true and show i
     {
       "alignItems": "center",
       "backgroundColor": "#F8F9FE",
+      "borderColor": "#F8F9FE",
       "borderRadius": 16,
+      "borderWidth": 1,
       "flexDirection": "row",
       "gap": "2%",
       "opacity": 1,
@@ -726,7 +728,9 @@ exports[`Option should render correctly in dark when selected is true and show i
     {
       "alignItems": "center",
       "backgroundColor": "#2F3036",
+      "borderColor": "#2F3036",
       "borderRadius": 16,
+      "borderWidth": 1,
       "flexDirection": "row",
       "gap": "2%",
       "opacity": 1,
@@ -1939,7 +1943,9 @@ exports[`Option should render correctly in light when selected is true and show 
     {
       "alignItems": "center",
       "backgroundColor": "#2F3036",
+      "borderColor": "#2F3036",
       "borderRadius": 16,
+      "borderWidth": 1,
       "flexDirection": "row",
       "gap": "2%",
       "opacity": 1,
@@ -2159,7 +2165,9 @@ exports[`Option should render correctly in light when selected is true and show 
     {
       "alignItems": "center",
       "backgroundColor": "#2F3036",
+      "borderColor": "#2F3036",
       "borderRadius": 16,
+      "borderWidth": 1,
       "flexDirection": "row",
       "gap": "2%",
       "opacity": 1,
