@@ -12,7 +12,8 @@ const stylesheet = createStyleSheet((theme) => ({
 		borderRadius: 16,
 		flexDirection: "row",
 		gap: "2%",
-		padding: 20,
+		paddingHorizontal: 20,
+		paddingVertical: 15,
 		width: "100%",
 		variants: {
 			selected: {
@@ -21,7 +22,7 @@ const stylesheet = createStyleSheet((theme) => ({
 				},
 				false: {
 					backgroundColor: "transparent",
-					borderColor: "#D4D6DD",
+					borderColor: theme.option.border,
 					borderWidth: 1
 				}
 			}

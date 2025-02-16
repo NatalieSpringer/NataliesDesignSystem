@@ -35,13 +35,14 @@ exports[`Option should render correctly in dark when selected is false and show 
     {
       "alignItems": "center",
       "backgroundColor": "transparent",
-      "borderColor": "#D4D6DD",
+      "borderColor": "#494A50",
       "borderRadius": 16,
       "borderWidth": 1,
       "flexDirection": "row",
       "gap": "2%",
       "opacity": 1,
-      "padding": 20,
+      "paddingHorizontal": 20,
+      "paddingVertical": 15,
       "width": "100%",
     }
   }
@@ -91,7 +92,7 @@ exports[`Option should render correctly in dark when selected is false and show 
           "borderWidth": 1,
           "justifyContent": "center",
           "opacity": 1,
-          "width": 24,
+          "width": 16,
         }
       }
     />
@@ -244,13 +245,14 @@ exports[`Option should render correctly in dark when selected is false and show 
     {
       "alignItems": "center",
       "backgroundColor": "transparent",
-      "borderColor": "#D4D6DD",
+      "borderColor": "#C5C6CC",
       "borderRadius": 16,
       "borderWidth": 1,
       "flexDirection": "row",
       "gap": "2%",
       "opacity": 1,
-      "padding": 20,
+      "paddingHorizontal": 20,
+      "paddingVertical": 15,
       "width": "100%",
     }
   }
@@ -300,7 +302,7 @@ exports[`Option should render correctly in dark when selected is false and show 
           "borderWidth": 1,
           "justifyContent": "center",
           "opacity": 1,
-          "width": 24,
+          "width": 16,
         }
       }
     />
@@ -508,7 +510,8 @@ exports[`Option should render correctly in dark when selected is true and show i
       "flexDirection": "row",
       "gap": "2%",
       "opacity": 1,
-      "padding": 20,
+      "paddingHorizontal": 20,
+      "paddingVertical": 15,
       "width": "100%",
     }
   }
@@ -558,7 +561,7 @@ exports[`Option should render correctly in dark when selected is true and show i
           "borderWidth": 0,
           "justifyContent": "center",
           "opacity": 1,
-          "width": 24,
+          "width": 16,
         }
       }
     >
@@ -569,7 +572,7 @@ exports[`Option should render correctly in dark when selected is true and show i
             "aspectRatio": 1,
             "backgroundColor": "white",
             "borderRadius": 24,
-            "width": 10,
+            "width": 6,
           }
         }
       />
@@ -727,7 +730,8 @@ exports[`Option should render correctly in dark when selected is true and show i
       "flexDirection": "row",
       "gap": "2%",
       "opacity": 1,
-      "padding": 20,
+      "paddingHorizontal": 20,
+      "paddingVertical": 15,
       "width": "100%",
     }
   }
@@ -777,7 +781,7 @@ exports[`Option should render correctly in dark when selected is true and show i
           "borderWidth": 0,
           "justifyContent": "center",
           "opacity": 1,
-          "width": 24,
+          "width": 16,
         }
       }
     >
@@ -788,7 +792,7 @@ exports[`Option should render correctly in dark when selected is true and show i
             "aspectRatio": 1,
             "backgroundColor": "white",
             "borderRadius": 24,
-            "width": 10,
+            "width": 6,
           }
         }
       />
@@ -993,13 +997,14 @@ exports[`Option should render correctly in dark when selected is undefined and s
     {
       "alignItems": "center",
       "backgroundColor": "transparent",
-      "borderColor": "#D4D6DD",
+      "borderColor": "#C5C6CC",
       "borderRadius": 16,
       "borderWidth": 1,
       "flexDirection": "row",
       "gap": "2%",
       "opacity": 1,
-      "padding": 20,
+      "paddingHorizontal": 20,
+      "paddingVertical": 15,
       "width": "100%",
     }
   }
@@ -1049,7 +1054,7 @@ exports[`Option should render correctly in dark when selected is undefined and s
           "borderWidth": 1,
           "justifyContent": "center",
           "opacity": 1,
-          "width": 24,
+          "width": 16,
         }
       }
     />
@@ -1202,13 +1207,14 @@ exports[`Option should render correctly in dark when selected is undefined and s
     {
       "alignItems": "center",
       "backgroundColor": "transparent",
-      "borderColor": "#D4D6DD",
+      "borderColor": "#494A50",
       "borderRadius": 16,
       "borderWidth": 1,
       "flexDirection": "row",
       "gap": "2%",
       "opacity": 1,
-      "padding": 20,
+      "paddingHorizontal": 20,
+      "paddingVertical": 15,
       "width": "100%",
     }
   }
@@ -1258,7 +1264,7 @@ exports[`Option should render correctly in dark when selected is undefined and s
           "borderWidth": 1,
           "justifyContent": "center",
           "opacity": 1,
-          "width": 24,
+          "width": 16,
         }
       }
     />
@@ -1462,13 +1468,14 @@ exports[`Option should render correctly in light when selected is false and show
     {
       "alignItems": "center",
       "backgroundColor": "transparent",
-      "borderColor": "#D4D6DD",
+      "borderColor": "#C5C6CC",
       "borderRadius": 16,
       "borderWidth": 1,
       "flexDirection": "row",
       "gap": "2%",
       "opacity": 1,
-      "padding": 20,
+      "paddingHorizontal": 20,
+      "paddingVertical": 15,
       "width": "100%",
     }
   }
@@ -1518,7 +1525,7 @@ exports[`Option should render correctly in light when selected is false and show
           "borderWidth": 1,
           "justifyContent": "center",
           "opacity": 1,
-          "width": 24,
+          "width": 16,
         }
       }
     />
@@ -1671,13 +1678,14 @@ exports[`Option should render correctly in light when selected is false and show
     {
       "alignItems": "center",
       "backgroundColor": "transparent",
-      "borderColor": "#D4D6DD",
+      "borderColor": "#C5C6CC",
       "borderRadius": 16,
       "borderWidth": 1,
       "flexDirection": "row",
       "gap": "2%",
       "opacity": 1,
-      "padding": 20,
+      "paddingHorizontal": 20,
+      "paddingVertical": 15,
       "width": "100%",
     }
   }
@@ -1727,7 +1735,7 @@ exports[`Option should render correctly in light when selected is false and show
           "borderWidth": 1,
           "justifyContent": "center",
           "opacity": 1,
-          "width": 24,
+          "width": 16,
         }
       }
     />
@@ -1935,7 +1943,8 @@ exports[`Option should render correctly in light when selected is true and show 
       "flexDirection": "row",
       "gap": "2%",
       "opacity": 1,
-      "padding": 20,
+      "paddingHorizontal": 20,
+      "paddingVertical": 15,
       "width": "100%",
     }
   }
@@ -1985,7 +1994,7 @@ exports[`Option should render correctly in light when selected is true and show 
           "borderWidth": 0,
           "justifyContent": "center",
           "opacity": 1,
-          "width": 24,
+          "width": 16,
         }
       }
     >
@@ -1996,7 +2005,7 @@ exports[`Option should render correctly in light when selected is true and show 
             "aspectRatio": 1,
             "backgroundColor": "white",
             "borderRadius": 24,
-            "width": 10,
+            "width": 6,
           }
         }
       />
@@ -2154,7 +2163,8 @@ exports[`Option should render correctly in light when selected is true and show 
       "flexDirection": "row",
       "gap": "2%",
       "opacity": 1,
-      "padding": 20,
+      "paddingHorizontal": 20,
+      "paddingVertical": 15,
       "width": "100%",
     }
   }
@@ -2204,7 +2214,7 @@ exports[`Option should render correctly in light when selected is true and show 
           "borderWidth": 0,
           "justifyContent": "center",
           "opacity": 1,
-          "width": 24,
+          "width": 16,
         }
       }
     >
@@ -2215,7 +2225,7 @@ exports[`Option should render correctly in light when selected is true and show 
             "aspectRatio": 1,
             "backgroundColor": "white",
             "borderRadius": 24,
-            "width": 10,
+            "width": 6,
           }
         }
       />
@@ -2420,13 +2430,14 @@ exports[`Option should render correctly in light when selected is undefined and 
     {
       "alignItems": "center",
       "backgroundColor": "transparent",
-      "borderColor": "#D4D6DD",
+      "borderColor": "#494A50",
       "borderRadius": 16,
       "borderWidth": 1,
       "flexDirection": "row",
       "gap": "2%",
       "opacity": 1,
-      "padding": 20,
+      "paddingHorizontal": 20,
+      "paddingVertical": 15,
       "width": "100%",
     }
   }
@@ -2476,7 +2487,7 @@ exports[`Option should render correctly in light when selected is undefined and 
           "borderWidth": 1,
           "justifyContent": "center",
           "opacity": 1,
-          "width": 24,
+          "width": 16,
         }
       }
     />
@@ -2629,13 +2640,14 @@ exports[`Option should render correctly in light when selected is undefined and 
     {
       "alignItems": "center",
       "backgroundColor": "transparent",
-      "borderColor": "#D4D6DD",
+      "borderColor": "#494A50",
       "borderRadius": 16,
       "borderWidth": 1,
       "flexDirection": "row",
       "gap": "2%",
       "opacity": 1,
-      "padding": 20,
+      "paddingHorizontal": 20,
+      "paddingVertical": 15,
       "width": "100%",
     }
   }
@@ -2685,7 +2697,7 @@ exports[`Option should render correctly in light when selected is undefined and 
           "borderWidth": 1,
           "justifyContent": "center",
           "opacity": 1,
-          "width": 24,
+          "width": 16,
         }
       }
     />
