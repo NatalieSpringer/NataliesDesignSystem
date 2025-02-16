@@ -25,7 +25,7 @@ exports[`LayoutContainer should render correctly in dark 1`] = `
         style={
           [
             {
-              "color": "black",
+              "color": "white",
               "fontFamily": "SFProText-Regular",
               "fontSize": 18,
             },
@@ -43,6 +43,48 @@ exports[`LayoutContainer should render correctly in dark 1`] = `
       </Text>
     </View>
   </RCTScrollView>
+</RCTSafeAreaView>
+`;
+
+exports[`LayoutContainer should render correctly in dark 2`] = `
+<RCTSafeAreaView>
+  <View
+    collapsable={false}
+    entering={[Function]}
+    jestAnimatedStyle={
+      {
+        "value": {},
+      }
+    }
+    style={
+      {
+        "paddingBottom": 90,
+        "paddingHorizontal": 24,
+        "paddingTop": 25,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "black",
+            "fontFamily": "SFProText-Regular",
+            "fontSize": 18,
+          },
+          false,
+          {
+            "textAlign": "left",
+          },
+          {
+            "lineHeight": 27,
+          },
+        ]
+      }
+    >
+      Sample Text
+    </Text>
+  </View>
 </RCTSafeAreaView>
 `;
 
@@ -71,7 +113,7 @@ exports[`LayoutContainer should render correctly in light 1`] = `
         style={
           [
             {
-              "color": "black",
+              "color": "white",
               "fontFamily": "SFProText-Regular",
               "fontSize": 18,
             },
@@ -89,5 +131,47 @@ exports[`LayoutContainer should render correctly in light 1`] = `
       </Text>
     </View>
   </RCTScrollView>
+</RCTSafeAreaView>
+`;
+
+exports[`LayoutContainer should render correctly in light 2`] = `
+<RCTSafeAreaView>
+  <View
+    collapsable={false}
+    entering={[Function]}
+    jestAnimatedStyle={
+      {
+        "value": {},
+      }
+    }
+    style={
+      {
+        "paddingBottom": 90,
+        "paddingHorizontal": 24,
+        "paddingTop": 25,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "black",
+            "fontFamily": "SFProText-Regular",
+            "fontSize": 18,
+          },
+          false,
+          {
+            "textAlign": "left",
+          },
+          {
+            "lineHeight": 27,
+          },
+        ]
+      }
+    >
+      Sample Text
+    </Text>
+  </View>
 </RCTSafeAreaView>
 `;
