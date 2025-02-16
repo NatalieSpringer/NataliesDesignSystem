@@ -4,17 +4,19 @@ import { mockAppTheme } from "../../../mocks";
 
 describe("LayoutContainer", () => {
 	["dark", "light"].forEach((theme) => {
-		beforeEach(() => {
-			mockAppTheme(theme as "light" | "dark");
-		});
-		it(`should render correctly in ${theme}`, () => {
-			const tree = render(
-				<LayoutContainer>
-					<Text size="m">Sample Text</Text>
-				</LayoutContainer>
-			).toJSON();
+		[true, false].forEach((isScroll) => {
+			beforeEach(() => {
+				mockAppTheme(theme as "light" | "dark");
+			});
+			it(`should render correctly in ${theme}`, () => {
+				const tree = render(
+					<LayoutContainer isScroll={isScroll}>
+						<Text size="m">Sample Text</Text>
+					</LayoutContainer>
+				).toJSON();
 
-			expect(tree).toMatchSnapshot();
+				expect(tree).toMatchSnapshot();
+			});
 		});
 	});
 });
