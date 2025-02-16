@@ -7,19 +7,31 @@ import { Text } from "../Text";
 import { Icon } from "../Icon";
 
 export const Badge = ({ name, text, variant }: BadgeProps) => {
-	const { styles, theme } = useStyles(stylesheet, {
+	const { styles } = useStyles(stylesheet, {
 		variant
 	});
 
 	const foregroundColor = styles.container.textColor;
 
 	return (
-		<View style={styles.container}>
+		<View
+			accessible
+			accessibilityLabel={text ?? name}
+			accessibilityRole="image"
+			style={styles.container}
+		>
 			{!!text && (
-				<Text color={foregroundColor} size="s" weight="bold">{text}</Text>
+				<Text color={foregroundColor} size="s" weight="bold">
+					{text}
+				</Text>
 			)}
 			{!!name && (
-				<Icon color={foregroundColor} name={name} size={15} weight="bold" />
+				<Icon
+					color={foregroundColor}
+					name={name}
+					size={15}
+					weight="bold"
+				/>
 			)}
 		</View>
 	);

@@ -1,5 +1,4 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { action } from "@storybook/addon-actions";
 import React from "react";
 import { View } from "react-native";
 import { Badge } from ".";
@@ -21,6 +20,7 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
+	//@ts-ignore
 	args: {
 		variant: "primary",
 		text: "1"
@@ -28,6 +28,7 @@ export const Primary: Story = {
 };
 
 export const Secondary: Story = {
+	//@ts-ignore
 	args: {
 		variant: "secondary",
 		text: "1"
@@ -35,6 +36,7 @@ export const Secondary: Story = {
 };
 
 export const PrimaryIcon: Story = {
+	//@ts-ignore
 	args: {
 		variant: "primary",
 		name: "check"
@@ -42,6 +44,7 @@ export const PrimaryIcon: Story = {
 };
 
 export const SecondaryIcon: Story = {
+	//@ts-ignore
 	args: {
 		variant: "secondary",
 		name: "check"

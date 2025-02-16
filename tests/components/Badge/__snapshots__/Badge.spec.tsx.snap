@@ -2,6 +2,9 @@
 
 exports[`Badge should render correctly in dark with icon 1`] = `
 <View
+  accessibilityLabel="checkmark"
+  accessibilityRole="image"
+  accessible={true}
   style={
     {
       "alignItems": "center",
@@ -43,6 +46,9 @@ exports[`Badge should render correctly in dark with icon 1`] = `
 
 exports[`Badge should render correctly in dark with icon 2`] = `
 <View
+  accessibilityLabel="checkmark"
+  accessibilityRole="image"
+  accessible={true}
   style={
     {
       "alignItems": "center",
@@ -84,6 +90,9 @@ exports[`Badge should render correctly in dark with icon 2`] = `
 
 exports[`Badge should render correctly in dark with text 1`] = `
 <View
+  accessibilityLabel="1"
+  accessibilityRole="image"
+  accessible={true}
   style={
     {
       "alignItems": "center",
@@ -121,6 +130,9 @@ exports[`Badge should render correctly in dark with text 1`] = `
 
 exports[`Badge should render correctly in dark with text 2`] = `
 <View
+  accessibilityLabel="1"
+  accessibilityRole="image"
+  accessible={true}
   style={
     {
       "alignItems": "center",
@@ -158,6 +170,9 @@ exports[`Badge should render correctly in dark with text 2`] = `
 
 exports[`Badge should render correctly in light with icon 1`] = `
 <View
+  accessibilityLabel="checkmark"
+  accessibilityRole="image"
+  accessible={true}
   style={
     {
       "alignItems": "center",
@@ -199,6 +214,9 @@ exports[`Badge should render correctly in light with icon 1`] = `
 
 exports[`Badge should render correctly in light with icon 2`] = `
 <View
+  accessibilityLabel="checkmark"
+  accessibilityRole="image"
+  accessible={true}
   style={
     {
       "alignItems": "center",
@@ -240,6 +258,9 @@ exports[`Badge should render correctly in light with icon 2`] = `
 
 exports[`Badge should render correctly in light with text 1`] = `
 <View
+  accessibilityLabel="1"
+  accessibilityRole="image"
+  accessible={true}
   style={
     {
       "alignItems": "center",
@@ -277,6 +298,9 @@ exports[`Badge should render correctly in light with text 1`] = `
 
 exports[`Badge should render correctly in light with text 2`] = `
 <View
+  accessibilityLabel="1"
+  accessibilityRole="image"
+  accessible={true}
   style={
     {
       "alignItems": "center",

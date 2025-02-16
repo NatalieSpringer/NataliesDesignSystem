@@ -15,10 +15,10 @@ describe("Badge", () => {
 						variant={variant as "primary" | "secondary"}
 					/>
 				).toJSON();
-				
+
 				expect(tree).toMatchSnapshot();
 			});
-			
+
 			it(`should render correctly in ${theme} with icon`, () => {
 				const tree = render(
 					<Badge
@@ -26,7 +26,7 @@ describe("Badge", () => {
 						variant={variant as "primary" | "secondary"}
 					/>
 				).toJSON();
-				
+
 				expect(tree).toMatchSnapshot();
 			});
 		});
