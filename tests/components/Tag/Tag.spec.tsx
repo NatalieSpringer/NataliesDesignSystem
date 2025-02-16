@@ -18,7 +18,7 @@ describe("Tag", () => {
 
 				expect(tree).toMatchSnapshot();
 			});
-			
+
 			it(`should render correctly in ${theme} with onPress`, () => {
 				const onPress = jest.fn();
 				const tree = render(

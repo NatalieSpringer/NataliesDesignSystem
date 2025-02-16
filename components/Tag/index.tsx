@@ -1,5 +1,5 @@
 import React from "react";
-import { TouchableOpacity, View } from "react-native";
+import { TouchableOpacity } from "react-native";
 import { TagProps } from "./types";
 import { stylesheet } from "./styles";
 import { useStyles } from "react-native-unistyles";

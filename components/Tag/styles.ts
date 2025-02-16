@@ -15,7 +15,7 @@ const stylesheet = createStyleSheet((theme) => ({
 					textColor: "white"
 				},
 				secondary: {
-					backgroundColor: "#B3DAFF",
+					backgroundColor: theme.tag.background,
 					textColor: theme.system.blue
 				}
 			}
