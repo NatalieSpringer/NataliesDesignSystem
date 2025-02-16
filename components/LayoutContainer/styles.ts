@@ -5,6 +5,9 @@ const stylesheet = createStyleSheet((theme) => ({
 		paddingTop: 25,
 		paddingHorizontal: 24,
 		paddingBottom: 90
+	},
+	safeArea: {
+		backgroundColor: theme.general.background
 	}
 }));
 
