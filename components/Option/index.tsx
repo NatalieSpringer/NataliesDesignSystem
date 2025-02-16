@@ -31,7 +31,7 @@ export const Option = ({
 			style={styles.container}
 		>
 			<View style={styles.radioButton}>
-				<RadioButton selected={selected} size="m" />
+				<RadioButton selected={selected} size="s" />
 			</View>
 			<View style={styles.text}>
 				<View style={styles.textContainer}>

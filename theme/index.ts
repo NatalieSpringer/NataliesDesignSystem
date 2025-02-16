@@ -25,6 +25,9 @@ const darkTheme = {
 		background: "#EAF2FF",
 		icon: "#B3DAFF"
 	},
+	option: {
+		border: "#494A50"
+	},
 	radioButton: {
 		border: "#494A50"
 	},
@@ -84,6 +87,9 @@ const lightTheme = {
 	image: {
 		background: "#EAF2FF",
 		icon: "#B3DAFF"
+	},
+	option: {
+		border: "#C5C6CC"
 	},
 	radioButton: {
 		border: "#C5C6CC"
