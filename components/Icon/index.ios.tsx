@@ -15,6 +15,7 @@ const iOSMapping = {
 	line: "line.3.horizontal.decrease",
 	person: "person.fill",
 	search: "magnifyingglass",
+	share: "square.and.arrow.up",
 	star: "star.fill",
 	minus: "minus",
 	plus: "plus",

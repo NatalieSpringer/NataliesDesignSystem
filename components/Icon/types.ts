@@ -12,5 +12,6 @@ export type IconType =
 	| "search"
 	| "minus"
 	| "plus"
+	| "share"
 	| "star"
 	| "close";
