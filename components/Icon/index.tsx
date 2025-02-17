@@ -19,6 +19,7 @@ export const androidMapping = {
 	line: "filter-list",
 	person: "person",
 	search: "search",
+	share: "ios-share",
 	minus: "remove",
 	plus: "add",
 	star: "star",

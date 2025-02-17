@@ -7,7 +7,8 @@ const stylesheet = createStyleSheet((theme) => ({
 		paddingBottom: 90
 	},
 	safeArea: {
-		backgroundColor: theme.general.background
+		backgroundColor: theme.general.background,
+		flex: 1
 	}
 }));
 
