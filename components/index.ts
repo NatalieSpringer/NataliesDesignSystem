@@ -10,6 +10,7 @@ export * from "./Image";
 export * from "./LayoutContainer";
 export * from "./Option";
 export * from "./RadioButton";
+export * from "./Search";
 export * from "./SegmentedControl";
 export * from "./Slider";
 export * from "./Tag";
