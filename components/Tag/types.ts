@@ -1,5 +1,5 @@
 type TagProps = {
-	onPress?: () => void;
+	onPress?: (text: string) => void;
 	text: string;
 	variant: "primary" | "secondary";
 };

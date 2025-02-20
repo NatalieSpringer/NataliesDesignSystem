@@ -18,7 +18,7 @@ export const Tag = ({ onPress, text, variant }: TagProps) => {
 			accessibilityLabel={text}
 			accessibilityRole={!!onPress ? "button" : "image"}
 			disabled={!onPress}
-			onPress={onPress}
+			onPress={(): void => onPress?.(text)}
 			style={styles.container}
 		>
 			<Text color={foregroundColor} size="xs" weight="bold">
