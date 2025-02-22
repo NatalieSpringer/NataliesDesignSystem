@@ -33,7 +33,7 @@ const darkTheme = {
 	},
 	search: {
 		background: "#2F3036",
-		icon: "#B3DAFF"
+		icon: "#8F9098"
 	},
 	segmentedControl: {
 		background: "#2F3036",
@@ -99,8 +99,8 @@ const lightTheme = {
 		border: "#C5C6CC"
 	},
 	search: {
-		background: "#EAF2FF",
-		icon: "#B3DAFF"
+		background: "#E8E9F1",
+		icon: "#71727A"
 	},
 	segmentedControl: {
 		background: "#F8F9FE",
