@@ -1,5 +1,5 @@
 import React from "react";
-import { SafeAreaView } from "react-native";
+import { Keyboard, SafeAreaView, TouchableWithoutFeedback } from "react-native";
 import { LayoutContainerProps } from "./types";
 import { stylesheet } from "./styles";
 import { useStyles } from "react-native-unistyles";
@@ -15,15 +15,21 @@ export const LayoutContainer = ({
 		<SafeAreaView style={styles.safeArea}>
 			{isScroll ? (
 				<Animated.ScrollView
+					keyboardShouldPersistTaps="handled"
 					entering={FadeInUp}
 					style={styles.container}
 				>
 					{children}
 				</Animated.ScrollView>
 			) : (
-				<Animated.View entering={FadeInUp} style={styles.container}>
-					{children}
-				</Animated.View>
+				<TouchableWithoutFeedback
+					onPress={Keyboard.dismiss}
+					accessible={false}
+				>
+					<Animated.View entering={FadeInUp} style={styles.container}>
+						{children}
+					</Animated.View>
+				</TouchableWithoutFeedback>
 			)}
 		</SafeAreaView>
 	);
