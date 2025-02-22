@@ -44,7 +44,7 @@ exports[`Search should render correctly in dark 1`] = `
           ],
         ]
       }
-      tintColor="#B3DAFF"
+      tintColor="#8F9098"
       type="monochrome"
       weight="regular"
     />
@@ -86,7 +86,7 @@ exports[`Search should render correctly in dark with multiline 1`] = `
     style={
       {
         "alignItems": "center",
-        "backgroundColor": "#EAF2FF",
+        "backgroundColor": "#E8E9F1",
         "borderRadius": 100,
         "flexDirection": "row",
         "height": "100%",
@@ -115,7 +115,7 @@ exports[`Search should render correctly in dark with multiline 1`] = `
           ],
         ]
       }
-      tintColor="#B3DAFF"
+      tintColor="#71727A"
       type="monochrome"
       weight="regular"
     />
@@ -186,7 +186,7 @@ exports[`Search should render correctly in light 1`] = `
           ],
         ]
       }
-      tintColor="#B3DAFF"
+      tintColor="#8F9098"
       type="monochrome"
       weight="regular"
     />
@@ -228,7 +228,7 @@ exports[`Search should render correctly in light with multiline 1`] = `
     style={
       {
         "alignItems": "center",
-        "backgroundColor": "#EAF2FF",
+        "backgroundColor": "#E8E9F1",
         "borderRadius": 100,
         "flexDirection": "row",
         "height": "100%",
@@ -257,7 +257,7 @@ exports[`Search should render correctly in light with multiline 1`] = `
           ],
         ]
       }
-      tintColor="#B3DAFF"
+      tintColor="#71727A"
       type="monochrome"
       weight="regular"
     />
