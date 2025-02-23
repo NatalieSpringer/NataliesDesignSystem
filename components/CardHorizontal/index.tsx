@@ -8,6 +8,7 @@ import { Icon } from "../Icon";
 
 export const CardHorizontal = ({
 	description,
+	numberOfLines,
 	onPress,
 	title
 }: CardHorizontalProps) => {
@@ -25,7 +26,9 @@ export const CardHorizontal = ({
 				<Text size="s" weight="bold">
 					{title}
 				</Text>
-				<Text size="xs">{description}</Text>
+				<Text numberOfLines={numberOfLines} size="xs">
+					{description}
+				</Text>
 			</View>
 			<Icon color={theme.card.icon} name="chevronRight" size={16} />
 		</TouchableOpacity>

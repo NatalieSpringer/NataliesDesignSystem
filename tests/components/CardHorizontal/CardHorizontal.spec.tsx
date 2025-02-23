@@ -19,5 +19,19 @@ describe("CardHorizontal", () => {
 
 			expect(tree).toMatchSnapshot();
 		});
+
+		it(`should render correctly in ${theme} with specific number of lines`, () => {
+			const onPress = jest.fn();
+			const tree = render(
+				<CardHorizontal
+					description="Description"
+					numberOfLines={2}
+					onPress={onPress}
+					title="Title"
+				/>
+			).toJSON();
+
+			expect(tree).toMatchSnapshot();
+		});
 	});
 });
