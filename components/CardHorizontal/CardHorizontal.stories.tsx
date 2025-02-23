@@ -27,3 +27,13 @@ export const Primary: Story = {
 		title: "Title"
 	}
 };
+
+export const NumberOfLines: Story = {
+	args: {
+		description:
+			"This is a description of a CardHorizontal component with a specific number of lines and not any more",
+		numberOfLines: 2,
+		onPress: action("onPress"),
+		title: "Title"
+	}
+};

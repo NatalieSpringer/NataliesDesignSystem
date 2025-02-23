@@ -8,6 +8,7 @@ export const Text = ({
 	align = "left",
 	children,
 	color,
+	numberOfLines,
 	size,
 	weight
 }: TextProps) => {
@@ -20,6 +21,7 @@ export const Text = ({
 
 	return (
 		<TextRN
+			numberOfLines={numberOfLines}
 			style={[
 				styles.text,
 				!!color && { color },
