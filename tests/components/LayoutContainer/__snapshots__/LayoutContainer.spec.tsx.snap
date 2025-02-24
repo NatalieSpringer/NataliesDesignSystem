@@ -23,6 +23,8 @@ exports[`LayoutContainer should render correctly in dark 1`] = `
     style={
       {
         "height": "100%",
+        "paddingHorizontal": 24,
+        "paddingTop": 24,
       }
     }
   >
@@ -259,6 +261,8 @@ exports[`LayoutContainer should render correctly in light 1`] = `
     style={
       {
         "height": "100%",
+        "paddingHorizontal": 24,
+        "paddingTop": 24,
       }
     }
   >
