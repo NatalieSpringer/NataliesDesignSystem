@@ -22,5 +22,11 @@ describe("Icon", () => {
 
 			expect(tree).toMatchSnapshot();
 		});
+
+		it(`should render correctly in ${theme} with no color specified`, () => {
+			const tree = render(<Icon name={"checkmark"} />).toJSON();
+
+			expect(tree).toMatchSnapshot();
+		});
 	});
 });

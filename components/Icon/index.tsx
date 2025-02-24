@@ -5,6 +5,7 @@ import { SymbolWeight } from "expo-symbols";
 import React from "react";
 import { OpaqueColorValue, StyleProp, ViewStyle } from "react-native";
 import { IconType } from "./types";
+import { useStyles } from "react-native-unistyles";
 
 export const androidMapping = {
 	checkmark: "check-circle",
@@ -44,13 +45,14 @@ export function Icon({
 }: {
 	name: IconType;
 	size?: number;
-	color: string | OpaqueColorValue;
+	color?: string | OpaqueColorValue;
 	style?: StyleProp<ViewStyle>;
 	weight?: SymbolWeight;
 }) {
+	const { theme } = useStyles();
 	return (
 		<MaterialIcons
-			color={color}
+			color={color ?? theme.system.blue}
 			size={size}
 			name={androidMapping[name]}
 			style={style}
