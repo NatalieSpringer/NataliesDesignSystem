@@ -13,13 +13,19 @@ export const LayoutContainer = ({
 }: LayoutContainerProps) => {
 	const { styles } = useStyles(stylesheet);
 
+	const appliedStyle = [
+		styles.container,
+		hasPaddingTop && styles.paddingTop,
+		hasPaddingHorizontal && styles.paddingHorizontal
+	];
+
 	return (
 		<SafeAreaView style={styles.safeArea}>
 			{isScroll ? (
 				<Animated.ScrollView
 					keyboardShouldPersistTaps="handled"
 					entering={FadeInUp}
-					style={styles.container}
+					style={appliedStyle}
 				>
 					{children}
 				</Animated.ScrollView>
@@ -28,14 +34,7 @@ export const LayoutContainer = ({
 					onPress={Keyboard.dismiss}
 					accessible={false}
 				>
-					<Animated.View
-						entering={FadeInUp}
-						style={[
-							styles.container,
-							hasPaddingTop && styles.paddingTop,
-							hasPaddingHorizontal && styles.paddingHorizontal
-						]}
-					>
+					<Animated.View entering={FadeInUp} style={appliedStyle}>
 						{children}
 					</Animated.View>
 				</TouchableWithoutFeedback>
