@@ -86,7 +86,7 @@ exports[`Search should render correctly in dark with multiline 1`] = `
     style={
       {
         "alignItems": "center",
-        "backgroundColor": "#E8E9F1",
+        "backgroundColor": "#2F3036",
         "borderRadius": 100,
         "flexDirection": "row",
         "height": "100%",
@@ -115,7 +115,7 @@ exports[`Search should render correctly in dark with multiline 1`] = `
           ],
         ]
       }
-      tintColor="#71727A"
+      tintColor="#8F9098"
       type="monochrome"
       weight="regular"
     />
@@ -127,7 +127,7 @@ exports[`Search should render correctly in dark with multiline 1`] = `
       returnKeyType="search"
       style={
         {
-          "color": "black",
+          "color": "white",
           "fontFamily": "SFProText-Regular",
           "fontWeight": "500",
           "height": "100%",
@@ -228,7 +228,7 @@ exports[`Search should render correctly in light with multiline 1`] = `
     style={
       {
         "alignItems": "center",
-        "backgroundColor": "#E8E9F1",
+        "backgroundColor": "#2F3036",
         "borderRadius": 100,
         "flexDirection": "row",
         "height": "100%",
@@ -257,7 +257,7 @@ exports[`Search should render correctly in light with multiline 1`] = `
           ],
         ]
       }
-      tintColor="#71727A"
+      tintColor="#8F9098"
       type="monochrome"
       weight="regular"
     />
@@ -269,7 +269,7 @@ exports[`Search should render correctly in light with multiline 1`] = `
       returnKeyType="search"
       style={
         {
-          "color": "black",
+          "color": "white",
           "fontFamily": "SFProText-Regular",
           "fontWeight": "500",
           "height": "100%",

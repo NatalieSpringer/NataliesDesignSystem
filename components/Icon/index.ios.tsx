@@ -1,6 +1,7 @@
 import { SymbolView, SymbolWeight } from "expo-symbols";
 import { StyleProp, ViewStyle } from "react-native";
 import { IconType } from "./types";
+import { useStyles } from "react-native-unistyles";
 
 const iOSMapping = {
 	checkmark: "checkmark.circle.fill",
@@ -38,10 +39,11 @@ export function Icon({
 	style?: StyleProp<ViewStyle>;
 	weight?: SymbolWeight;
 }) {
+	const { theme } = useStyles();
 	return (
 		<SymbolView
 			weight={weight}
-			tintColor={color}
+			tintColor={color ?? theme.system.blue}
 			resizeMode="scaleAspectFit"
 			//@ts-ignore
 			name={iOSMapping[name]}

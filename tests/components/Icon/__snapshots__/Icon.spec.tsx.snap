@@ -27,6 +27,33 @@ exports[`Icon should render correctly in dark 1`] = `
 />
 `;
 
+exports[`Icon should render correctly in dark with no color specified 1`] = `
+<ViewManagerAdapter_SymbolModule
+  animated={false}
+  colors={[]}
+  name="checkmark.circle.fill"
+  resizeMode="scaleAspectFit"
+  style={
+    [
+      {
+        "height": 24,
+        "width": 24,
+      },
+      [
+        {
+          "height": 24,
+          "width": 24,
+        },
+        undefined,
+      ],
+    ]
+  }
+  tintColor="rgba(10, 132, 255, 1)"
+  type="monochrome"
+  weight="regular"
+/>
+`;
+
 exports[`Icon should render correctly in dark with no size specified 1`] = `
 <ViewManagerAdapter_SymbolModule
   animated={false}
@@ -76,6 +103,33 @@ exports[`Icon should render correctly in light 1`] = `
     ]
   }
   tintColor="blue"
+  type="monochrome"
+  weight="regular"
+/>
+`;
+
+exports[`Icon should render correctly in light with no color specified 1`] = `
+<ViewManagerAdapter_SymbolModule
+  animated={false}
+  colors={[]}
+  name="checkmark.circle.fill"
+  resizeMode="scaleAspectFit"
+  style={
+    [
+      {
+        "height": 24,
+        "width": 24,
+      },
+      [
+        {
+          "height": 24,
+          "width": 24,
+        },
+        undefined,
+      ],
+    ]
+  }
+  tintColor="rgba(0, 122, 255, 1)"
   type="monochrome"
   weight="regular"
 />
