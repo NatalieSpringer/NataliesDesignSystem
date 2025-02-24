@@ -17,10 +17,14 @@ describe("LayoutContainer", () => {
 
 				expect(tree).toMatchSnapshot();
 			});
-			
+
 			it(`should render correctly in ${theme} without padding`, () => {
 				const tree = render(
-					<LayoutContainer isScroll={isScroll} hasPaddingHorizontal={false} hasPaddingTop={false}>
+					<LayoutContainer
+						isScroll={isScroll}
+						hasPaddingHorizontal={false}
+						hasPaddingTop={false}
+					>
 						<Text size="m">Sample Text</Text>
 					</LayoutContainer>
 				).toJSON();

@@ -28,7 +28,14 @@ export const LayoutContainer = ({
 					onPress={Keyboard.dismiss}
 					accessible={false}
 				>
-					<Animated.View entering={FadeInUp} style={[styles.container, hasPaddingTop && styles.paddingTop, hasPaddingHorizontal && styles.paddingHorizontal]}>
+					<Animated.View
+						entering={FadeInUp}
+						style={[
+							styles.container,
+							hasPaddingTop && styles.paddingTop,
+							hasPaddingHorizontal && styles.paddingHorizontal
+						]}
+					>
 						{children}
 					</Animated.View>
 				</TouchableWithoutFeedback>
