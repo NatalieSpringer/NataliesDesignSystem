@@ -7,6 +7,8 @@ import Animated, { FadeInUp } from "react-native-reanimated";
 
 export const LayoutContainer = ({
 	children,
+	hasPaddingHorizontal = true,
+	hasPaddingTop = true,
 	isScroll
 }: LayoutContainerProps) => {
 	const { styles } = useStyles(stylesheet);
@@ -26,7 +28,7 @@ export const LayoutContainer = ({
 					onPress={Keyboard.dismiss}
 					accessible={false}
 				>
-					<Animated.View entering={FadeInUp} style={styles.container}>
+					<Animated.View entering={FadeInUp} style={[styles.container, hasPaddingTop && styles.paddingTop, hasPaddingHorizontal && styles.paddingHorizontal]}>
 						{children}
 					</Animated.View>
 				</TouchableWithoutFeedback>

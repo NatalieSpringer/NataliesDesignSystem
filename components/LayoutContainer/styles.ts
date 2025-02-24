@@ -2,10 +2,13 @@ import { createStyleSheet } from "react-native-unistyles";
 
 const stylesheet = createStyleSheet((theme) => ({
 	container: {
-		paddingTop: 25,
-		paddingHorizontal: 24,
-		paddingBottom: 90,
 		height: "100%"
+	},
+	paddingTop: {
+		paddingTop: 24
+	},
+	paddingHorizontal: {
+		paddingHorizontal: 24
 	},
 	safeArea: {
 		backgroundColor: theme.general.background,
