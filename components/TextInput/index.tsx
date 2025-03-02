@@ -11,6 +11,7 @@ export const TextInput = ({
 	multiline = false,
 	onChangeText,
 	placeholder,
+	secureTextEntry,
 	value
 }: TextInputProps) => {
 	const { styles } = useStyles(stylesheet, {
@@ -26,6 +27,7 @@ export const TextInput = ({
 			multiline={multiline}
 			onChangeText={onChangeText}
 			placeholder={placeholder}
+			secureTextEntry={secureTextEntry}
 			style={styles.container}
 			testID="TextInput"
 			value={value}

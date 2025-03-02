@@ -7,6 +7,7 @@ interface TextInputProps {
 	multiline?: TextInputPropsRN["multiline"];
 	numberOfLines?: TextInputPropsRN["numberOfLines"];
 	placeholder?: TextInputPropsRN["placeholder"];
+	secureTextEntry?: TextInputPropsRN["secureTextEntry"];
 	value: TextInputPropsRN["value"];
 }
 
