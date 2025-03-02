@@ -5,6 +5,7 @@ exports[`List should render correctly in dark 1`] = `
   style={
     {
       "gap": 8,
+      "width": "100%",
     }
   }
 >
@@ -80,6 +81,7 @@ exports[`List should render correctly in light 1`] = `
   style={
     {
       "gap": 8,
+      "width": "100%",
     }
   }
 >
