@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List should render correctly in dark 1`] = `
+<View
+  style={
+    {
+      "gap": 8,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "width": "100%",
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 16,
+            },
+            false,
+            {
+              "textAlign": "left",
+            },
+            {
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        Left Text
+      </Text>
+    </View>
+    <View>
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 16,
+            },
+            false,
+            {
+              "textAlign": "left",
+            },
+            {
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        Right Text
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "backgroundColor": "#E8E9F1",
+        "height": 2,
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`List should render correctly in light 1`] = `
+<View
+  style={
+    {
+      "gap": 8,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "width": "100%",
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 16,
+            },
+            false,
+            {
+              "textAlign": "left",
+            },
+            {
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        Left Text
+      </Text>
+    </View>
+    <View>
+      <Text
+        style={
+          [
+            {
+              "color": "black",
+              "fontFamily": "SFProText-Regular",
+              "fontSize": 16,
+            },
+            false,
+            {
+              "textAlign": "left",
+            },
+            {
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        Right Text
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "backgroundColor": "#E8E9F1",
+        "height": 2,
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;
