@@ -1,4 +1,5 @@
 interface ButtonProps {
+	color?: string;
 	disabled?: boolean;
 	onPress: () => void;
 	text: string;
