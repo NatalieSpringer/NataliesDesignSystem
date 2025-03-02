@@ -3,7 +3,7 @@ import { createStyleSheet } from "react-native-unistyles";
 const stylesheet = createStyleSheet((theme) => ({
 	container: {
 		backgroundColor: theme.divider.background,
-		height: 2,
+		height: 1,
 		width: "100%"
 	}
 }));
