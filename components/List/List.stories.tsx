@@ -27,24 +27,28 @@ export const Primary: Story = {
 	args: {
 		children: (
 			<>
-			<List.Item>
-				<ListItem.Left>
-					<Text size="m">Left Text</Text>
-				</ListItem.Left>
-				<ListItem.Right>
-					<View style={{width: "100%"}}>
-					<Button onPress={() => {}} text="123" variant="primary" />
-					</View>
-				</ListItem.Right>
-			</List.Item>
-			<List.Item>
-				<ListItem.Left>
-					<Text size="m">Left Text</Text>
-				</ListItem.Left>
-				<ListItem.Right>
-					<Toggle onValueChange={() => {}} value />
-				</ListItem.Right>
-			</List.Item>
+				<List.Item>
+					<ListItem.Left>
+						<Text size="m">Left Text</Text>
+					</ListItem.Left>
+					<ListItem.Right>
+						<View style={{ width: "100%" }}>
+							<Button
+								onPress={() => {}}
+								text="123"
+								variant="primary"
+							/>
+						</View>
+					</ListItem.Right>
+				</List.Item>
+				<List.Item>
+					<ListItem.Left>
+						<Text size="m">Left Text</Text>
+					</ListItem.Left>
+					<ListItem.Right>
+						<Toggle onValueChange={() => {}} value />
+					</ListItem.Right>
+				</List.Item>
 			</>
 		)
 	}

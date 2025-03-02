@@ -4,7 +4,7 @@ exports[`List should render correctly in dark 1`] = `
 <View
   style={
     {
-      "gap": 5,
+      "gap": 8,
     }
   }
 >
@@ -79,7 +79,7 @@ exports[`List should render correctly in light 1`] = `
 <View
   style={
     {
-      "gap": 5,
+      "gap": 8,
     }
   }
 >
