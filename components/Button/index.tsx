@@ -6,6 +6,7 @@ import { useStyles } from "react-native-unistyles";
 import { Text } from "../Text";
 
 export const Button = ({
+	color,
 	disabled = false,
 	onPress,
 	text,
@@ -15,7 +16,7 @@ export const Button = ({
 		variant
 	});
 
-	const containerStyle = styles.container(disabled);
+	const containerStyle = styles.container({ color, disabled });
 	const { textColor } = containerStyle;
 
 	return (
