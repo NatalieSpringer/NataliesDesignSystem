@@ -8,6 +8,7 @@ export * from "./Divider";
 export * from "./Icon";
 export * from "./Image";
 export * from "./LayoutContainer";
+export * from "./List";
 export * from "./Option";
 export * from "./RadioButton";
 export * from "./Search";
