@@ -1,34 +1,44 @@
-import React from "react";
-import { View } from "react-native";
+import React, { ReactNode } from "react";
+import { TouchableOpacity } from "react-native";
 import { ListLeft, ListRight } from "./ListOptions";
 import { Divider } from "../Divider";
 import { createStyleSheet, useStyles } from "react-native-unistyles";
 
-export const ListItem: React.FC<{ children: React.ReactNode }> & {
+interface ListItemProps {
+	children: React.ReactNode;
+	onPress?: () => void;
+}
+
+const validChildren = (
+	children: ReactNode,
+	ComponentType: any
+): ReactNode | null => {
+	return React.Children.map(children, (child) => {
+		if (React.isValidElement(child) && child.type === ComponentType) {
+			return child;
+		}
+		return null;
+	});
+};
+
+export const ListItem: React.FC<ListItemProps> & {
 	Left: typeof ListLeft;
 	Right: typeof ListRight;
-} = ({ children }) => {
+} = ({ children, onPress }) => {
 	const { styles } = useStyles(stylesheet);
-	const leftChildren = React.Children.map(children, (child) => {
-		if (React.isValidElement(child) && child.type === ListItem.Left) {
-			return child;
-		}
-		return null;
-	});
-
-	const rightChildren = React.Children.map(children, (child) => {
-		if (React.isValidElement(child) && child.type === ListItem.Right) {
-			return child;
-		}
-		return null;
-	});
+	const leftChildren = validChildren(children, ListItem.Left);
+	const rightChildren = validChildren(children, ListItem.Right);
 
 	return (
 		<>
-			<View style={styles.container}>
+			<TouchableOpacity
+				disabled={!onPress}
+				onPress={onPress}
+				style={styles.container}
+			>
 				{leftChildren}
 				{rightChildren}
-			</View>
+			</TouchableOpacity>
 			<Divider />
 		</>
 	);
