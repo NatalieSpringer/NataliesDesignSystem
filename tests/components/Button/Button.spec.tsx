@@ -24,7 +24,7 @@ describe("Button", () => {
 
 					expect(tree).toMatchSnapshot();
 				});
-				
+
 				it(`should render correctly ${variant} in ${theme} when color is specified`, () => {
 					const onPress = jest.fn();
 					const tree = render(

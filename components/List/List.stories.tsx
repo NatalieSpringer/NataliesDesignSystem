@@ -4,7 +4,6 @@ import { View } from "react-native";
 import { Text } from "../Text";
 import { List } from ".";
 import { ListItem } from "./ListItem";
-import { Button } from "../Button";
 import { Toggle } from "../Toggle";
 
 const meta = {
@@ -27,18 +26,12 @@ export const Primary: Story = {
 	args: {
 		children: (
 			<>
-				<List.Item>
+				<List.Item onPress={() => {}}>
 					<ListItem.Left>
 						<Text size="m">Left Text</Text>
 					</ListItem.Left>
 					<ListItem.Right>
-						<View style={{ width: "100%" }}>
-							<Button
-								onPress={() => {}}
-								text="123"
-								variant="primary"
-							/>
-						</View>
+						<Text size="m">Right Text</Text>
 					</ListItem.Right>
 				</List.Item>
 				<List.Item>
